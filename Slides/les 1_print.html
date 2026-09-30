@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>IT&IMT - Welkom bij C++ programmeren</title>
+
+		<meta name="description" content="IT&IMT - C++ programmeren">
+		<meta name="author" content="Steven Charpentier">
+
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/dracula.css" id="theme">
+
+		<link rel="stylesheet" href="APstyle.css">
+		<link rel="stylesheet" href="plugin/highlight/humanoid-light.css">
+
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+            <div class="slides">
+    <section data-markdown>
+  <script type="text/template">
+### Welkom bij 
+## C++ programmeren
+
+---
+
+## Administratie & Introductie
+- Lector
+- Aanwezigheden
+- Benodigdheden (Laptop, IDE, libraries)
+- Communicatie via Digitap & e-mail
+---
+    ## Lector
+    **Naam**: Steven Charpentier
+
+    ![lector](chst.jpg#gh-dark-mode-only)
+
+
+---
+## Aanwezigheden
+
+- tijdens de lessen telt **geen** verplichte aanwezigheid
+- aanwezigheid is zowel voor jezelf als voor de lector nuttig
+- bij de gamejam is aanwezigheid **verplicht**
+- bij examens is aanwezigheid **verplicht**
+
+---
+## Benodigdheden
+- **Laptop OS**: Windows
+- **IDE**: CLion
+- **libraries**: raylib
+
+alternatieven mogen, maar worden niet ondersteund
+
+---
+
+## Contact & Communicatie
+voor informatie en mededelingen:
+
+- **Digitap**: https://digitap.ap.be
+
+voor vragen en afspraken:
+
+- **E-mail**: steven.charpentier@ap.be
+
+---
+
+## Studiewijzer & ECTS
+- [Bekijk de ECTS fiche](https://bamaflexweb.ap.be/BMFUIDetailxOLOD.aspx?a=232958&b=5&c=1)
+- Studiewijzer beschikbaar op Digitap
+
+---
+
+## Geschiedenis van C++
+- Ontstaan door **Bjarne Stroustrup** (1979)
+- "C with Classes"
+- Evolutie: C++98, C++11, C++14, C++17, C++20, C++23, c++26
+- Kracht: Performance en abstractie
+
+---
+    ## C++98
+    - **Standaardisatie**: Eerste officiële ISO-standaard
+    - **STL (Standard Template Library)**: Containers, algorithms, iterators
+    - **Templates**: Generiek programmeren
+
+---
+    ## C++11
+    - **Auto keyword**: Vereenvoudigde type declaratie
+    - **Lambda functies**: Anonieme functies
+    - **Smart pointers**: `unique_ptr`, `shared_ptr`
+
+---
+    ## C++14
+    - **Generic lambdas**: `auto` parameters in lambdas
+    - **Return type deduction**: `auto` in functies
+
+---
+    ## C++17
+    - **Structured bindings**: `auto [x, y] = pair`
+    - **Filesystem library**: Bestandssysteem operaties
+
+---
+    ## C++20
+    - **Concepts**: Sjabloonbeperkingen
+    - **Coroutines**: Parallel programmeren
+    - **Modules**: Modulair codesysteem
+
+---
+    ## C++23 & C++26
+    - **std println**: Eenvoudige console output
+    - **C++ Reflectie** (verwacht in C++26)
+
+---
+## Het Compilatiemodel
+1. **Pre-processor**: Verwerken `#include` & `#define`
+2. **Compiler**: Vertaling naar Assembly
+3. **Linker**: link van object files en libraries naar een **Executable** (`.exe`)
+
+![compilatieproces](cpp_compiling_dark.png)
+---
+## Waarom C++?
+- **Geen tussenpersoon**: Direct op hardware, niet via runtime
+- **Voorspelbaarheid**: "Jij" bepaalt wanneer geheugen wordt beheerd
+- **Hardware-toegang**: Essentieel voor sensors, GPU, embedded systemen
+
+---
+
+## C++ vs C# vs Java vs Python
+| Aspect | C++ | C# | Java | Python |
+|--------|-----|-----|------|--------|
+| Runtime | Direct op metaal | .NET Runtime | JVM | Interpreter |
+| Performance | Maximaal | Goed | Goed | Laag |
+| Geheugen | Handmatig | Garbage Collector | Garbage Collector | Garbage Collector |
+| Hardware-toegang | Ja | Beperkt | Beperkt | Nee |
+| Leesbaarheid | Laag | Gemiddeld | Gemiddeld | Hoog |
+
+---
+## een nieuw project aanmaken in CLion
+    demo
+
+  </script>
+</section>
+</div></div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+</body>
+
+</Html>
+

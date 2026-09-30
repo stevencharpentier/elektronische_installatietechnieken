@@ -1,0 +1,125 @@
+:root {
+
+  /* AP Hogeschool Antwerpen huisstijlkleuren (uit template.pptx) */
+  --ap-red: #C40009;
+  --ap-red-dark: #97000C;
+  --ap-orange: #F59C00;
+  --ap-grey: #68676C;
+  --ap-grey-light: #D6D2D3;
+  --ap-cream: #F7F2F2;
+
+  --r-background-color: #fff;
+  --r-main-font: Calibri, 'Century Gothic', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --r-main-font-size: 40px;
+  --r-main-color: #231F20;
+  --r-block-margin: 20px;
+  --r-heading-margin: 0 0 20px 0;
+  --r-heading-font: 'Century Gothic', Calibri, Impact, sans-serif;
+  --r-heading-color: var(--ap-red-dark);
+  --r-heading-HIGH-color: var(--ap-red);
+  --r-heading-line-height: 1.2;
+  --r-heading-letter-spacing: normal;
+  --r-heading-text-transform: none;
+  --r-heading-text-shadow: none;
+  --r-heading-font-weight: normal;
+  --r-heading1-text-shadow: none;
+  --r-heading1-size: 3.77em;
+  --r-heading2-size: 1.58em;
+  --r-heading3-size: 1.16em;
+  --r-heading4-size: 1em;
+  --r-code-font: monospace;
+  --r-link-color: var(--ap-red);
+  --r-link-color-dark: var(--ap-red-dark);
+  --r-link-color-hover: var(--ap-orange);
+  --r-selection-background-color: var(--ap-red);
+  --r-selection-color: #fff;
+  --r-overlay-element-bg-color: 240, 240, 240;
+  --r-overlay-element-fg-color: 0, 0, 0;
+}
+
+.reveal h1 {
+  font-size: var(--r-heading1-size);
+  color: var(--r-heading-HIGH-color);
+}
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: var(--r-block-margin) auto;
+  padding: 15px 20px;
+  font-style: italic;
+  background: var(--ap-cream);
+  border-left: 6px solid var(--ap-red);
+  box-shadow: none;
+}
+
+:root {
+  --r-bold-color: var(--ap-red-dark);
+  --r-italic-color: var(--ap-grey);
+  --r-inline-code-color: var(--ap-red);
+  --r-list-bullet-color: var(--ap-red);
+}
+
+.reveal code {
+  color: var(--ap-red-dark);
+  background: var(--ap-cream);
+}
+
+.reveal pre {
+  box-shadow: none;
+  border: 1px solid var(--ap-grey-light);
+}
+
+.reveal table {
+  border-collapse: collapse;
+}
+
+.reveal table th {
+  background: var(--ap-red);
+  color: #fff;
+  border-bottom: none;
+}
+
+.reveal table td {
+  border-bottom: 1px solid var(--ap-grey-light);
+}
+
+.reveal a {
+  text-decoration: underline;
+}
+
+.reveal a:hover {
+  color: var(--ap-orange);
+}
+
+/* Veiligheidsnet voor afbeeldingen: reveal.js schaalt de hele slide via een CSS-transform,
+   dus vh/vw-eenheden op een img klopt niet meer met de geschaalde slide-afmetingen en
+   laat afbeeldingen buiten de slide vallen. Alle afbeeldingen blijven hierdoor sowieso
+   binnen hun slide, ook als een individuele img nog een eigen max-height in px meekrijgt. */
+.reveal .slides section img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 480px;
+  object-fit: contain;
+}
+
+/* AP-vlagmotief: rode driehoek rechtsonder, vast op het scherm (niet in de slide-inhoud, dus geen overlap met tekst) */
+.reveal::after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 170px 110px 0;
+  border-color: transparent transparent var(--ap-red) transparent;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.reveal .slides {
+  z-index: 1;
+}
