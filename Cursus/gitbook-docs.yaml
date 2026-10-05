@@ -8,5 +8,5 @@ site:
       path: /
       default: true
       content:
-        directory: ./Cursus
+        directory: ./
         language: nl
