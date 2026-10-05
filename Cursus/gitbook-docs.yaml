@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Elektronische installatietechnieken
+  structure:
+    - type: space
+      key: elektronische-installatietechnieken
+      title: Elektronische installatietechnieken
+      path: /
+      default: true
+      content:
+        directory: ./Cursus
+        language: nl
