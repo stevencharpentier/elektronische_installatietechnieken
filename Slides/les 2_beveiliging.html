@@ -498,9 +498,9 @@ Van grof naar fijn, in de verdeelkast:
 					lineColor: '#68676C',
 					background: '#FFFFFF'
 				} });
-				mermaid.run({ querySelector: '.mermaid' });
+				mermaid.run({ querySelector: '.mermaid' }).then(() => Reveal.layout());
 				Reveal.addEventListener('slidechanged', () => {
-					mermaid.run({ querySelector: '.mermaid' });
+					mermaid.run({ querySelector: '.mermaid' }).then(() => Reveal.layout());
 				});
 
 				// Afbeeldingen laden asynchroon in. Reveal berekent de verticale

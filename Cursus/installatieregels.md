@@ -45,7 +45,7 @@ Een **lichtpunt** is niet hetzelfde als een lamp. Een lichtpunt is een groep ver
 
 ### Verplicht
 
-- Per stroombaan is het aantal enkelvoudige of meervoudige stopcontacten beperkt tot **maximaal 8**.
+- Per stroombaan is het aantal enkelvoudige of meervoudige stopcontacten beperkt tot **maximaal 8**. Een **vast gemonteerde USB-lader** (een wandmodel dat rechtstreeks op de stroombaan aangesloten wordt, niet een stekker-adapter in een gewoon stopcontact) **telt mee als één van die 8 aftakpunten**, op dezelfde manier als een lichtpunt op een gemengde kring meetelt als een contactdoos: het AREI telt elk vast aftakpunt op de stroombaan, niet enkel de klassieke stopcontacten.
 - Alle stopcontacten moeten **geaard** zijn en van het **kindveilige type**, zodat er geen puntige voorwerpen in gestoken kunnen worden zodra de stekker eruit is.
 - Opbouwwandcontactdozen hangen op minstens **15 cm** boven de vloer in droge ruimten, en **25 cm** in andere ruimten.
 - Verzonken stopcontacten in vloeren of plinten moeten specifiek hiervoor geschikt zijn (bijvoorbeeld beschermd tegen vochtinsijpeling).
@@ -123,6 +123,10 @@ Dit is een algemene regel die gekoppeld is aan het type beveiliging aan het begi
 
 - De kleurcode ook binnen het bord consequent aanhouden (bruin/zwart/grijs voor de fasen, blauw voor N, geel-groen voor PE), zodat het bord leesbaar blijft bij een latere ingreep door iemand anders.
 - Voldoende lengtereserve laten bij elke draad, zodat een component later vervangen kan worden zonder alles opnieuw te moeten bedraden.
+- **Een kam (kamrail/aansluitkam/verdeelkam) gebruiken** in plaats van losse soepele bruggen met adereindhulzen tussen elk toestel. Dit is een stijve of flexibele koperen rail met pennen/vorken die bovenop een rij automaten of een differentieel klikt en ze allemaal in één keer van dezelfde fase(n) voorziet, bijvoorbeeld één differentieel die meerdere automaten voedt. Dat bespaart tijd en geeft een overzichtelijker bord dan tientallen losse bruggetjes.
+  - Bestaat in verschillende **steekmaten** (de afstand tussen de pennen), afgestemd op de breedte van het toestel: smal voor enkelvoudige automaten, breder voor een differentieel of hoofdschakelaar die meer plaats inneemt.
+  - De **koperdoorsnede van de kam** bepaalt de maximale stroom die ze mag dragen (bijvoorbeeld 10 mm² koper tot ongeveer 63 A, 16 mm² tot ongeveer 80 A): controleer dit tegen de nominale stroom van wat de kam voedt.
+  - Als je een kam inkort (bijvoorbeeld omdat je bord minder toestellen telt dan de kam lang is), moet het afgezaagde uiteinde afgewerkt worden met een eindkapje, en ongebruikte pennen afgedekt worden met blindstroken, zodat er geen onder spanning staand metaal bloot blijft liggen.
 
 ### Suggesties
 
@@ -179,12 +183,17 @@ Minimale doorsnede per gebruik (koperen geleiders):
 | Fornuis/wasmachine, eenfasig | 6 mm² |
 
 - Kleurcode: **blauw is uitsluitend voor de nulgeleider** (behalve als er geen nulgeleider verdeeld wordt). De beschermingsgeleider en equipotentiaalverbindingen zijn steeds **geel-groen**. Gele of groene kleuren (los of gecombineerd) zijn voor andere geleiders **verboden**, om verwarring met de aarding te vermijden.
+- **Mogen alle fasen dezelfde kleur hebben?** Strikt gelezen: ja. Het AREI reserveert enkel blauw voor N en geel-groen voor PE; nergens staat dat L1, L2 en L3 elk een eigen, verschillende kleur moeten krijgen (bevestigd in twee onafhankelijke praktijkgidsen die de AREI-voorschriften samenvatten). Bruin/zwart/grijs voor L1/L2/L3 is dus, net als eerder vastgesteld, een **conventie (IEC 60446)**, geen harde AREI-verplichting. Toch is alle fasen in dezelfde kleur bedraden **sterk af te raden**: het risico dat je per ongeluk twee verschillende fasen met elkaar verbindt (wat een gevaarlijke 400V-kortsluiting veroorzaakt in plaats van de verwachte 230V) stijgt sterk zonder duidelijk visueel onderscheid. Een keurder kan dit in de praktijk ook aankaarten als een probleem van vakmanschap, ook al staat het niet letterlijk als inbreuk in het AREI.
 - Elektrische leidingen worden op voldoende afstand van niet-elektrische leidingen (water, CV) geplaatst.
 - Losse draden in eenzelfde buis moeten tot dezelfde stroombaan behoren.
+- **Massief versus soepel in de muur**: de vaste leidingen in de muren van een huisinstallatie zijn normaal **massieve (eendradige)** geleiders (type VOB, XVB,...). **Soepele (meeraderige) draden** (zoals het VOBst/H07V-K dat je in het verdeelbord gebruikt, zie thema "bedrading in het verdeelbord") zijn voor een vaste installatie enkel toegelaten als ze bijkomend beschermd worden (bijvoorbeeld in een buis) en de uiteinden van kabelschoenen (adereindhulzen) voorzien zijn. Losse, soepele **snoeren** (bedoeld voor verplaatsbare toestellen met een stekker) mogen nooit als vaste installatieleiding dienen.
+- **Brandreactieklasse (Eca/Cca)**: sinds de herziening van het AREI in 2020 moet elke geïsoleerde geleider en kabel een minimale brandreactieklasse volgens de Europese CPR-verordening halen. **Afzonderlijk geïnstalleerde geleiders en kabels** (de meest voorkomende situatie in een gewone woning, één kabel per buis) zijn minimum **Eca**. Worden geleiders of kabels **in bundel of in laag** geïnstalleerd (meerdere samen, zonder buis), dan geldt een strengere minimumklasse: **Cca-s3,d2,a3**. Een hogere klasse dan het minimum kiezen mag altijd.
 
 ### Situatiegebonden
 
 - Bij **oude installaties**: geleiders tussen 1 mm² en 2,5 mm² zijn toegelaten als afwijking, en geleiders van 1 mm² moeten beveiligd zijn met een zekering van 6 A of automaat van 10 A.
+- **Halogeenvrije kabels (Cca-s1,d2,a1)** zijn verplicht in specifieke situaties, ongeacht of het om een gewone woning gaat: evacuatiewegen in gebouwen (bijvoorbeeld traphallen en gangen), maar **met uitzondering van die binnen de wooneenheid zelf**; publiek toegankelijke lokalen voor minstens 50 personen (zalen, sporthallen, theaters); tunnels; en ruimten die volgens een risicoanalyse moeilijk te evacueren zijn bij rookvorming. Voor een gewone eengezinswoning speelt dit dus normaal niet, tenzij een specifieke ruimte in de risicoanalyse als moeilijk evacueerbaar wordt bestempeld.
+- **Niet te verwarren: CCA versus Cca**. "**CCA**" (hoofdletters, Copper-Clad Aluminium) is een geleidermateriaal: een aluminium kern met een dunne koperen laag eromheen, goedkoper en lichter dan massief koper maar met een hogere weerstand en een groter risico op een slechte, verouderende verbinding onder klemschroeven. "**Cca**" (kleine letters) is daarentegen een brandreactieklasse, zoals hierboven beschreven, en heeft niets met het geleidermateriaal te maken. Een CCA-conductor is dus iets helemaal anders dan een Cca-kabel, ook al lijkt de afkorting identiek.
 
 ## Thema: badkamer en andere natte ruimtes
 
@@ -211,3 +220,7 @@ Minimale doorsnede per gebruik (koperen geleiders):
 - [Atlas Contrôle - Kabeltypes in de elektrische installatie](https://www.atlascontrole.be/nl/kabeltypes-elektrische-installatie/) (VOB, XVB, H07V-K, massief versus soepel).
 - [BouwInfo - AREI: alles wat je moet weten over de aarding in je elektrische installatie](https://www.bouwinfo.be/bouwforum/threads/arei-alles-wat-je-moet-weten-over-de-aarding-in-je-elektrische-installatie.415227/) (aardingslus verplicht bij nieuwbouw, praktijkkloof met aardingspinnen).
 - [BouwInfo - Zijn er nog AREI-voordelen voor dubbelpolige schakelaar?](https://www.bouwinfo.be/bouwforum/threads/zijn-er-nog-arei-voordelen-voor-dubbelpolige-schakelaar.413277/) (dubbelpolig schakelen is gekoppeld aan het type beveiliging, niet aan de badkamer specifiek).
+- Nexans, [ALSECURE - Speel niet met vuur: CPR & AREI 2020, inleiding tot de regelgeving](https://www.nexans.be/en/dam/jcr:35fbf461-b210-4b13-91fa-97f9761f7d4c/Nexans_Alsecure_A4Brochure_NL_LR.pdf) (exacte AREI-tekst over de brandreactieklasse Eca/Cca van kabels).
+- [MWS Wire - Copper-Clad Aluminum Wire Guide](https://mwswire.com/copper-clad-aluminum-wire-guide-pros-cons-and-what-you-need-to-know/) en [Wikipedia - Copper-clad aluminium wire](https://en.wikipedia.org/wiki/Copper-clad_aluminium_wire) (definitie van CCA-geleiders).
+- ATK, *Huishoudelijke elektrische installaties*, D09-nlE1-09 (tweede, onafhankelijke bevestiging van de kleurcoderegel: enkel blauw voor N en geel-groen voor PE zijn verplicht).
+- [Elektrakoning - Kamrail: functie, afmetingen en montage](https://www.elektrakoning.nl/kamrail) (werking, steekmaten en veiligheid van een kamrail/aansluitkam).

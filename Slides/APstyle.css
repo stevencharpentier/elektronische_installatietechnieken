@@ -105,6 +105,21 @@
   object-fit: contain;
 }
 
+/* Zelfde veiligheidsnet, maar dan voor mermaid-diagrammen: mermaid plakt een <svg> rechtstreeks
+   in de pagina (geen <img>) en zet daar vaak een eigen inline style met een vaste breedte op,
+   die de bovenstaande regel niet raakt en met !important overschreven moet worden. */
+.reveal .slides section .mermaid {
+  display: flex;
+  justify-content: center;
+}
+
+.reveal .slides section .mermaid svg {
+  max-width: 100% !important;
+  max-height: 420px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
 /* AP-vlagmotief: rode driehoek rechtsonder, vast op het scherm (niet in de slide-inhoud, dus geen overlap met tekst) */
 .reveal::after {
   content: "";

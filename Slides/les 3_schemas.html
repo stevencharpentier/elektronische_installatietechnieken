@@ -77,34 +77,7 @@ Daarom bestaan er verschillende schema's, elk met een eigen doel
 
 ---
 
-## As 1: eendradig vs meerdradig
-
-- **Eendradig**: elke stroombaan/leiding = **één lijn**, ongeacht het aantal geleiders
-- **Meerdradig**: **elke geleider** apart getekend
-
----
-
-## As 2: controle vs uitvoeringsondersteunend
-
-- **Controleschema's**: begrijpen/verifiëren van de werking, los van de fysieke plaatsing
-- **Uitvoeringsondersteunende schema's**: effectief monteren en aansluiten, volgen de werkelijke plaatsing
-
-Beide assen staan los van elkaar
-
----
-
-## Stroombaanschema
-
-- De officiële AREI-term (Deel 2, Hoofdstuk 2.12)
-- **Controleschema**, **meerdradig**
-- Getekend tussen L1 en N
-- Toont de werking, los van de fysieke plaatsing
-- Dit ken je vanbuiten per type schakeling
-- Eendradige, verplichte toepassing ervan = het eendraadschema
-
----
-
-## Stroombaanschema van een kruisschakeling
+## Principe van een kruisschakeling
 
 <div class="mermaid">
 graph LR
@@ -137,6 +110,33 @@ graph LR
 <img src="images/stroombaanschema_wisselschakeling.png" style="max-height:280px;background:white;padding:10px">
 <img src="images/stroombaanschema_dubbele_aansteking.png" style="max-height:280px;background:white;padding:10px">
 </div>
+
+---
+
+## As 1: eendradig vs meerdradig
+
+- **Eendradig**: elke stroombaan/leiding = **één lijn**, ongeacht het aantal geleiders
+- **Meerdradig**: **elke geleider** apart getekend
+
+---
+
+## As 2: controle vs uitvoeringsondersteunend
+
+- **Controleschema's**: begrijpen/verifiëren van de werking, los van de fysieke plaatsing
+- **Uitvoeringsondersteunende schema's**: effectief monteren en aansluiten, volgen de werkelijke plaatsing
+
+Beide assen staan los van elkaar
+
+---
+
+## Stroombaanschema
+
+- De officiële AREI-term (Deel 2, Hoofdstuk 2.12)
+- **Controleschema**, **meerdradig**
+- Getekend tussen L1 en N
+- Toont de werking, los van de fysieke plaatsing
+- Dit ken je vanbuiten per type schakeling
+- Eendradige, verplichte toepassing ervan = het eendraadschema
 
 ---
 
@@ -312,9 +312,9 @@ Geen schema, wel een **tussenstap**: tabel van elke genummerde draad uit het str
 					lineColor: '#68676C',
 					background: '#FFFFFF'
 				} });
-				mermaid.run({ querySelector: '.mermaid' });
+				mermaid.run({ querySelector: '.mermaid' }).then(() => Reveal.layout());
 				Reveal.addEventListener('slidechanged', () => {
-					mermaid.run({ querySelector: '.mermaid' });
+					mermaid.run({ querySelector: '.mermaid' }).then(() => Reveal.layout());
 				});
 
 				// Afbeeldingen laden asynchroon in. Reveal berekent de verticale

@@ -15,7 +15,7 @@ Voor je een schema zoals dat van een kruisschakeling kan lezen, moet je eerst we
 
 - **Enkelpolige schakelaar**: bedient **1 lichtpunt vanaf 1 plaats**. De meest eenvoudige schakeling, onderbreekt enkel de actieve geleider (fase).
 - **Dubbelpolige schakelaar**: bedient ook 1 lichtpunt vanaf 1 plaats, maar onderbreekt **beide polen** (fase én nul). Wanneer dit wettelijk verplicht is (gekoppeld aan het type beveiliging aan het begin van de kring, niet aan de ruimte), zie thema "schakelaars" in installatieregels.md.
-- **Serieschakelaar** (ook wel "dubbele aansteking" genoemd): bedient **2 afzonderlijke lichtpunten vanaf 1 plaats**, met één enkele wip die 3 standen kent (beide uit, groep 1, groep 1+2). Zie het stroombaanschema-voorbeeld hierboven.
+- **Serieschakelaar** (ook wel "dubbele aansteking" genoemd): bedient **2 afzonderlijke lichtpunten vanaf 1 plaats**, met één enkele wip die 3 standen kent (beide uit, groep 1, groep 1+2). Zie het stroombaanschema-voorbeeld hieronder.
 - **Wisselschakelaar**: bedient **1 lichtpunt vanaf 2 plaatsen** (bijvoorbeeld boven- en onderaan een trap). Wordt altijd in paren gebruikt.
 - **Kruisschakelaar**: wordt **tussen** twee wisselschakelaars geplaatst om **1 lichtpunt vanaf 3 of meer plaatsen** te bedienen. Hoe meer plaatsen je nodig hebt, hoe meer kruisschakelaars je tussen de twee wisselschakelaars plaatst.
 - **Trekschakelaar**: een schakelaar die je via een geïsoleerd koord bedient in plaats van een drukknop of wip. Typisch gebruikt in een badkamer (volume 1/2), waar een gewone wandschakelaar niet toegelaten is maar een trekschakelaar met voldoende beschermingsgraad wel.
@@ -27,6 +27,34 @@ Bij grote installaties met veel bedieningspunten (bijvoorbeeld een trappenhal me
 
 - **Impulsschakelaar** (ook **teleruptor** of **stroomstootschakelaar** genoemd): een **bistabiel relais** dat van stand wisselt bij elke stroomstoot (impuls) die het van een drukknop krijgt, en die nieuwe stand vasthoudt tot de volgende impuls. Je kan er in principe een onbeperkt aantal drukknoppen op aansluiten, wat ideaal is voor trapverlichting met veel bedieningspunten.
 - **Minuterie** (of tijdschakelaar/trapautomaat): werkt met dezelfde drukknoppen, maar schakelt het licht na een **ingestelde tijd automatisch weer uit**, in plaats van te wachten op een volgende impuls. Veelgebruikt in gemeenschappelijke delen (traphallen, gangen) om energie te besparen.
+
+### Hoe zie je dit terug in een schema?
+
+Een sterk vereenvoudigd voorbeeld van het principe van een kruisschakeling (L1 gaat via twee wisselschakelaars en een kruisschakelaar naar de lamp, terug via N):
+
+```mermaid
+graph LR
+    L1(("L1")) --> S1["Wisselschakelaar 1"]
+    S1 --> K["Kruisschakelaar"]
+    K --> S2["Wisselschakelaar 2"]
+    S2 --> Lamp["Lamp"]
+    Lamp --> N(("N"))
+```
+
+En hetzelfde voorbeeld, in het echt getekend als stroombaanschema (L1 en N, met de wisselschakelaars S1/S3 en de kruisschakelaar S2, elk met hun klemnummers):
+
+![Stroombaanschema van een kruisschakeling](../Slides/images/stroombaanschema_kruisschakeling.png)
+
+Ter vergelijking, het stroombaanschema van een eenvoudigere wisselschakeling en van een dubbele aansteking (de serieschakelaar van hierboven):
+
+![Stroombaanschema wisselschakeling](../Slides/images/stroombaanschema_wisselschakeling.png)
+![Stroombaanschema dubbele aansteking](../Slides/images/stroombaanschema_dubbele_aansteking.png)
+
+Een klein fragment van een stroombaanschema, met een enkele (enkelpolige) schakelaar S1 die een lamp E8 bedient tussen L1 en N (met de klemnummers 1/2 op de schakelaar en 1/2 op de lamp):
+
+![Fragment van een stroombaanschema](../Slides/images/voorbeeld_stroombaanschema_klein.png)
+
+Dit soort schema, dat de werking van een schakeling toont, heet een **stroombaanschema**. Verderop in dit hoofdstuk leer je waarom dat precies de officiële AREI-term is, en hoe het zich verhoudt tot alle andere soorten schema's.
 
 ## Twee assen om schema's in te delen
 
@@ -48,31 +76,7 @@ Beide assen staan los van elkaar: een schema kan bijvoorbeeld meerdradig én uit
 
 De officiële, elektrotechnische term uit het AREI (Deel 2, Hoofdstuk 2.12): een **controleschema**, **meerdradig**, dat de elementaire stroombanen, hun onderlinge verbindingen en het elektrisch materieel weergeeft, met hun samenstelling en kenmerken.
 
-Getekend tussen de twee voedingsdraden (L1 en N), toont het de **werking** van een schakeling (bijvoorbeeld hoe een kruisschakeling een lamp vanaf 3 plaatsen laat bedienen), volledig **los van de fysieke plaatsing** van de componenten. Dit is het schema dat je vanbuiten leert per type schakeling.
-
-Een sterk vereenvoudigd voorbeeld van het stroombaanschema van een kruisschakeling (L1 gaat via twee wisselschakelaars en een kruisschakelaar naar de lamp, terug via N):
-
-```mermaid
-graph LR
-    L1(("L1")) --> S1["Wisselschakelaar 1"]
-    S1 --> K["Kruisschakelaar"]
-    K --> S2["Wisselschakelaar 2"]
-    S2 --> Lamp["Lamp"]
-    Lamp --> N(("N"))
-```
-
-En hetzelfde voorbeeld, in het echt getekend (L1 en N, met de wisselschakelaars S1/S3 en de kruisschakelaar S2, elk met hun klemnummers):
-
-![Stroombaanschema van een kruisschakeling](../Slides/images/stroombaanschema_kruisschakeling.png)
-
-Ter vergelijking, het stroombaanschema van een eenvoudigere wisselschakeling en van een dubbele aansteking:
-
-![Stroombaanschema wisselschakeling](../Slides/images/stroombaanschema_wisselschakeling.png)
-![Stroombaanschema dubbele aansteking](../Slides/images/stroombaanschema_dubbele_aansteking.png)
-
-Een klein fragment van een stroombaanschema, met een enkele schakelaar S1 die een lamp E8 bedient tussen L1 en N (met de klemnummers 1/2 op de schakelaar en 1/2 op de lamp):
-
-![Fragment van een stroombaanschema](../Slides/images/voorbeeld_stroombaanschema_klein.png)
+Getekend tussen de twee voedingsdraden (L1 en N), toont het de **werking** van een schakeling (bijvoorbeeld hoe een kruisschakeling een lamp vanaf 3 plaatsen laat bedienen), volledig **los van de fysieke plaatsing** van de componenten. Dit is het schema dat je vanbuiten leert per type schakeling. De voorbeelden (kruisschakeling, wisselschakeling, dubbele aansteking,...) vind je hierboven bij "Schakelaars en drukknoppen: hoe zie je dit terug in een schema?".
 
 Het AREI laat overigens toe dat een stroombaanschema **één- of meerdraads** getekend wordt. De eendradige toepassing ervan, verplicht voor huishoudelijke installaties, krijgt een eigen naam: het eendraadschema.
 
