@@ -152,5 +152,3 @@ Het AREI legt in Hoofdstuk 2.13 (Deel 2) vast welke symbolen verplicht gebruikt 
 - **G. Gebruikstoestellen**: lichtpunt, wandverlichting, fluorescentiearmatuur, noodverlichting, bel/zoemer/sirene, elektrisch slot, ventilator, verwarmingstoestel, boiler, elektrisch fornuis/kookplaat/oven, wasmachine, droogkast, afwasmachine, koelkast, diepvriezer, motor, transformator, kWh-teller
 
 Voor het exacte grafische symbool van elk item raadpleeg je Tabel 2.23 in het AREI zelf, of de ingebouwde symbolenbibliotheek van **Trikker** of **diagrams.net**, die deze symbolen kant-en-klaar bevatten.
-
-**Bronnen**: AREI Boek 1, Deel 2, Hoofdstuk 2.12 en 2.13 (zie AREI.md); R. Gonnissen, [Omvormen van schema's - van leidingschema naar bedradingschema](https://vpco.org/site/wp-content/uploads/2020/03/4PKL-PBL-methode_om_een_leidingsschema_om_te_vormen_naar_een_bedradingsschema.pdf) (PV Elektriciteit lesmateriaal); [Zelektro - Impulsschakelaars (teleruptoren)](https://www.zelektro.be/blog/uw-elektrische-installatie-faq-2/impulsschakelaars-teleruptoren-9) (werking impulsschakelaar/teleruptor en drukknoppen).

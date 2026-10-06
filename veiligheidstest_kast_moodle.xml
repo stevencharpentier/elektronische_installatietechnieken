@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<question type="category">
+  <category>
+    <text>$course$/top/Veiligheid elektriciteitskast</text>
+  </category>
+</question>
+
+<!-- ======================= Labo reglement ======================= -->
+
+<question type="multichoice">
+  <name><text>Veiligheid 01 - rode lijn</text></name>
+  <questiontext format="html"><text><![CDATA[Wanneer mag je in het labo ELL.01.02 over de rode lijn gaan?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Je mag er pas over als je geslaagd bent voor de labo Digitap-test]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Je mag er altijd over, zolang een medestudent meekijkt]]></text>
+    <feedback format="html"><text><![CDATA[Fout: de voorwaarde is geslaagd zijn voor de Digitap-test, niet een medestudent die meekijkt.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Je mag er altijd over, zolang je gesloten schoenen draagt]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Je mag er nooit over, ook niet na de Digitap-test]]></text>
+    <feedback format="html"><text><![CDATA[Fout: na een geslaagde Digitap-test mag het wel.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 02 - elektriciteitskasten openen</text></name>
+  <questiontext format="html"><text><![CDATA[Wanneer mag je een elektriciteitskast in het labo gebruiken of openen?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Enkel na toestemming van de lector]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Altijd vrij, zolang je over de rode lijn mag]]></text>
+    <feedback format="html"><text><![CDATA[Fout: er is altijd uitdrukkelijke toestemming nodig.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Enkel tijdens de laatste tien minuten van de les]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Enkel als je zelf een differentieeltest hebt uitgevoerd]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 03 - schakelaar naast de kasten</text></name>
+  <questiontext format="html"><text><![CDATA[Wie mag de schakelaar naast de elektriciteitskasten bedienen?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Enkel een lector, of een student na uitdrukkelijke toestemming]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Elke student die geslaagd is voor de Digitap-test]]></text>
+    <feedback format="html"><text><![CDATA[Fout: de Digitap-test geeft toegang tot de ruimte over de rode lijn, niet automatisch tot deze schakelaar.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Elke student, op eigen initiatief]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Niemand, enkel technisch personeel buiten de les]]></text>
+    <feedback format="html"><text><![CDATA[Fout: een lector mag ze wel bedienen.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 04 - metalen sieraden</text></name>
+  <questiontext format="html"><text><![CDATA[Wat moet je doen met ringen, kettingen en armbanden voor je over de rode lijn gaat?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Verwijderen]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Afplakken met isolatietape]]></text>
+    <feedback format="html"><text><![CDATA[Fout: ze moeten verwijderd worden, niet afgeplakt.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Niets, dat is enkel verplicht bij werken op hoogspanning]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Omwisselen voor rubberen handschoenen]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<!-- ======================= Gevaren van elektrische stroom ======================= -->
+
+<question type="multichoice">
+  <name><text>Veiligheid 05 - loslaatgrens</text></name>
+  <questiontext format="html"><text><![CDATA[Wat is de "loslaatgrens" (let-go current)?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[De stroomsterkte waarboven spierkramp het onmogelijk maakt om een spanningvoerend voorwerp zelf nog los te laten]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[De stroomsterkte waarboven een differentieelschakelaar wettelijk verplicht moet uitschakelen]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat is de 30 mA-grens, een ander begrip.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[De stroomsterkte waarboven kamerfibrilleren altijd optreedt]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat risico stijgt pas sterk vanaf 50-100 mA bij langere blootstelling.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[De maximale stroom die een automaat mag doorlaten]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 06 - 30 mA grens</text></name>
+  <questiontext format="html"><text><![CDATA[Waarom is de wettelijke bijkomende bescherming (differentieelschakelaar) net op 30 mA vastgelegd?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Omdat een dodelijke afloop pas vanaf ongeveer 30 mA reëel mogelijk wordt, dus ruim voor die grens al uitschakelen]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Omdat dat de kleinste stroom is die een mens kan voelen]]></text>
+    <feedback format="html"><text><![CDATA[Fout: voelbare tinteling begint al vanaf 0,5-5 mA.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Omdat dat de nominale stroom is van een gewone huisautomaat]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat heeft niets met elkaar te maken.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Omdat dat de maximale lekstroom is die het AREI toelaat zonder gevolgen]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 07 - gevaarlijke stroomsterkte</text></name>
+  <questiontext format="html"><text><![CDATA[Vanaf welke stroomsterkte door het lichaam wordt een dodelijke afloop (bij een stroom van hand naar voet) reëel mogelijk, tenzij de stroom snel wordt uitgeschakeld?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Vanaf ongeveer 30 mA]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Vanaf ongeveer 0,5 mA]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat is nog maar een voelbare tinteling.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Vanaf ongeveer 300 mA]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat is de drempel voor brandgevaar door lekstroom, niet voor een dodelijke schok.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Vanaf ongeveer 6 mA]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat is net de grens waaronder zo goed als iedereen nog zelf kan loslaten.]]></text></feedback>
+  </answer>
+</question>
+
+<!-- ======================= Differentieel en beveiligingstoestellen ======================= -->
+
+<question type="multichoice">
+  <name><text>Veiligheid 08 - algemene differentieel</text></name>
+  <questiontext format="html"><text><![CDATA[Elke Belgische huisinstallatie heeft minstens één algemene differentieelstroominrichting van maximaal welke waarde?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[300 mA]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[30 mA]]></text>
+    <feedback format="html"><text><![CDATA[Fout: 30 mA is de bijkomende differentieel voor stopcontacten, niet de algemene.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[3 A]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[16 A]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat is een typische waarde voor een automaat, geen differentieel.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 09 - bijkomende differentieel</text></name>
+  <questiontext format="html"><text><![CDATA[Voor stopcontacten is bijkomend een differentieelstroominrichting van maximaal welke waarde verplicht?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[30 mA]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[300 mA]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat is de algemene differentieel, niet de bijkomende voor stopcontacten.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[100 mA]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[500 mA]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 10 - waartegen beveiligt een differentieel</text></name>
+  <questiontext format="html"><text><![CDATA[Waartegen beschermt een differentieelschakelaar vooral?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Onrechtstreekse (en deels rechtstreekse) aanraking, door een verschil tussen in- en uitgaande stroom te detecteren]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Overbelasting van een kabel]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat is het werk van de automaat of smeltveiligheid.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Kortsluiting tussen twee fasen]]></text>
+    <feedback format="html"><text><![CDATA[Fout: bij een kortsluiting tussen fasen is er geen verschil tussen in- en uitgaande stroom, dus schakelt de differentieel daar zelf niet voor uit.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Te hoge netspanning]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 11 - automaat versus differentieel</text></name>
+  <questiontext format="html"><text><![CDATA[Een kortsluiting tussen twee fasen (380V) wordt normaal uitgeschakeld door...]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[De automaat of smeltveiligheid]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[De differentieelschakelaar]]></text>
+    <feedback format="html"><text><![CDATA[Fout: een differentieel reageert op een verschil in stroom, niet op een kortsluiting tussen fasen.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[De hoofdschakelaar alleen]]></text>
+    <feedback format="html"><text><![CDATA[Fout: de hoofdschakelaar schakelt niet automatisch uit bij een fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Geen enkel toestel, dat moet manueel opgemerkt worden]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 12 - TT en differentieel</text></name>
+  <questiontext format="html"><text><![CDATA[Waarom is een differentieelstroominrichting in een TT-net (het standaard netstelsel voor Belgische woningen) altijd noodzakelijk?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Omdat de foutstroom via de grond moet lopen, met een veel hogere impedantie, waardoor een gewone overstroombeveiliging een aardfout niet altijd snel genoeg kan detecteren]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Omdat TT-netten geen aarding hebben]]></text>
+    <feedback format="html"><text><![CDATA[Fout: TT-netten hebben wel degelijk een aarding, enkel een lokale, eigen aardelektrode in plaats van een gemeenschappelijke PE-geleider.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Omdat TT-netten geen automaten gebruiken]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Omdat TT enkel voor driefasige installaties gebruikt wordt]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 13 - volgorde in de kast</text></name>
+  <questiontext format="html"><text><![CDATA[Wat is de juiste volgorde van beveiligingen in een verdeelkast, van de voeding naar een individuele kring?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Hoofdschakelaar, algemene differentieel (300 mA), automaten per kring, eventueel bijkomende differentieel (30 mA)]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Automaten per kring, hoofdschakelaar, differentieel]]></text>
+    <feedback format="html"><text><![CDATA[Fout: de hoofdschakelaar en de algemene differentieel staan vooraan, niet na de automaten.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Bijkomende differentieel (30 mA), hoofdschakelaar, automaten]]></text>
+    <feedback format="html"><text><![CDATA[Fout: de hoofdschakelaar komt eerst, helemaal vooraan.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Automaten per kring, algemene differentieel, hoofdschakelaar]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit is net de omgekeerde volgorde.]]></text></feedback>
+  </answer>
+</question>
+
+<!-- ======================= Praktische veiligheid bij het aansluiten ======================= -->
+
+<question type="multichoice">
+  <name><text>Veiligheid 14 - spanningsloos maken</text></name>
+  <questiontext format="html"><text><![CDATA[Voor je een schakelaar of een kring aansluit, maak je de kring spanningsloos. Hoe controleer je dat correct?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Met een spanningstester, niet enkel door te vertrouwen dat de automaat omgezet is]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Door te voelen of de draad warm aanvoelt]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit is geen betrouwbare noch veilige methode.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Door enkel te controleren of de automaat op "uit" staat]]></text>
+    <feedback format="html"><text><![CDATA[Fout: een automaat kan defect zijn of je kan de verkeerde kring uitgeschakeld hebben, altijd zelf meten.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Door de lamp te testen die op die kring staat]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat zegt niets over de aanwezigheid van spanning op de draden waaraan je gaat werken.]]></text></feedback>
+  </answer>
+</question>
+
+<!-- ======================= Gouden Acht ======================= -->
+
+<question type="multichoice">
+  <name><text>Veiligheid 15 - Gouden Acht volgorde</text></name>
+  <questiontext format="html"><text><![CDATA[Wat is de juiste volgorde van de eerste vier stappen van de "Gouden Acht" (Volta) om veilig aan een elektrische installatie te werken?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Bereid de werkzaamheden voor, scheid de installatie, voorkom herinschakeling, controleer de spanningsafwezigheid]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Controleer de spanningsafwezigheid, scheid de installatie, bereid de werkzaamheden voor, voorkom herinschakeling]]></text>
+    <feedback format="html"><text><![CDATA[Fout: je kan pas spanningsafwezigheid controleren nadat de installatie al gescheiden en vergrendeld is.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Scheid de installatie, controleer de spanningsafwezigheid, bereid de werkzaamheden voor, voorkom herinschakeling]]></text>
+    <feedback format="html"><text><![CDATA[Fout: de voorbereiding komt eerst, en herinschakeling voorkomen gebeurt voor je de spanningsafwezigheid controleert.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Voorkom herinschakeling, bereid de werkzaamheden voor, controleer de spanningsafwezigheid, scheid de installatie]]></text>
+    <feedback format="html"><text><![CDATA[Fout: je kan de installatie pas vergrendelen nadat ze gescheiden is.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 16 - vergrendelen</text></name>
+  <questiontext format="html"><text><![CDATA[Bij stap "voorkom herinschakeling" van de Gouden Acht: hoe doe je dat bij voorkeur?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Door het bedieningsmechanisme te vergrendelen]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Door een collega te vragen om op wacht te staan]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit is geen betrouwbare vervanging voor een mechanische vergrendeling.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Door een waarschuwingsbriefje op de deur van het labo te hangen]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat waarschuwt enkel, het voorkomt een herinschakeling niet fysiek.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Door de zekeringen door te knippen]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit is geen toegelaten, herstelbare manier van werken.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 17 - controleer de spanningsafwezigheid</text></name>
+  <questiontext format="html"><text><![CDATA[Waar moet je bij de Gouden Acht de spanningsafwezigheid controleren?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Op alle actieve geleiders binnen de werkzone of in de onmiddellijke nabijheid ervan]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Enkel op de fasedraad, de nuldraad hoeft niet gecontroleerd]]></text>
+    <feedback format="html"><text><![CDATA[Fout: je controleert alle actieve geleiders, niet enkel de fase.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Enkel bij de hoofdschakelaar]]></text>
+    <feedback format="html"><text><![CDATA[Fout: je controleert in de werkzone zelf, niet enkel bij de hoofdschakelaar.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Dat is niet nodig als de automaat al uitgeschakeld en vergrendeld is]]></text>
+    <feedback format="html"><text><![CDATA[Fout: vergrendelen vervangt nooit het effectief meten.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 18 - wie geeft toestemming</text></name>
+  <questiontext format="html"><text><![CDATA[Bij stap 7 van de Gouden Acht ("de elektrische installatie vrijgeven"): wie mag toestemming geven om de werkzaamheden te starten?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Enkel de werkverantwoordelijke]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Elk lid van het uitvoerend personeel zelf]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat zou de hele procedure zinloos maken.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[De eerste persoon die ter plaatse is]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[De installatieverantwoordelijke, nooit de werkverantwoordelijke]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit is net omgekeerd, de werkverantwoordelijke geeft toestemming om te starten.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 19 - terug onder spanning</text></name>
+  <questiontext format="html"><text><![CDATA[Wanneer mag een installatie terug onder spanning gebracht worden (laatste stap van de Gouden Acht)?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Nadat de werkverantwoordelijke gemeld heeft dat de werkzaamheden voltooid zijn, onder verantwoordelijkheid van de installatieverantwoordelijke]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Zodra de laatste draad is vastgeschroefd, zonder verdere melding]]></text>
+    <feedback format="html"><text><![CDATA[Fout: er moet eerst gemeld worden dat het werk voltooid is.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Zodra één student klaar is, ook al zijn anderen nog bezig in dezelfde werkzone]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Automatisch na een vaste tijd, zonder expliciete melding]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 20 - afbakenen en afschermen</text></name>
+  <questiontext format="html"><text><![CDATA[Wanneer moet je, volgens de Gouden Acht, delen van een installatie afbakenen en/of afschermen?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Als er dichtbij de werkzone nog delen van de installatie onder spanning staan]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Altijd, ongeacht of er nog spanning in de buurt is]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit is specifiek nodig wanneer er nog spanningvoerende delen in de buurt zijn.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Nooit, dat is enkel van toepassing op hoogspanning]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit geldt ook bij laagspanning, telkens er nog nabije delen onder spanning staan.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Enkel nadat de installatie terug onder spanning is gebracht]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit gebeurt juist voor en tijdens het werk, niet erna.]]></text></feedback>
+  </answer>
+</question>
+
+<!-- ======================= Labo reglement, vervolg ======================= -->
+
+<question type="multichoice">
+  <name><text>Veiligheid 21 - losliggende kabels</text></name>
+  <questiontext format="html"><text><![CDATA[Waarom moet je losliggende kabels in het labo netjes leggen?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Om struikelgevaar te vermijden]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Om elektrocutiegevaar te vermijden]]></text>
+    <feedback format="html"><text><![CDATA[Fout: deze kabels liggen los en zijn niet aangesloten, het gaat hier om struikelgevaar.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Om brandgevaar te vermijden]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Om kortsluiting tussen kabels te vermijden]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 22 - gereedschap na afloop</text></name>
+  <questiontext format="html"><text><![CDATA[Wat doe je met gereedschap zoals krimptangen, kabeltesters en schroevendraaiers na afloop van de les?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Terugleggen op de voorziene plaats]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Meenemen naar huis tot de volgende les]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Gewoon laten liggen op de werktafel, de volgende groep ruimt wel op]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Afgeven aan een medestudent die nog bezig is]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 23 - eten en drinken</text></name>
+  <questiontext format="html"><text><![CDATA[Wat zegt het labo reglement over eten en drinken in het labo?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Geen eten toegelaten, drinken in een gesloten fles mag wel]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Eten en drinken zijn beide volledig verboden]]></text>
+    <feedback format="html"><text><![CDATA[Fout: drinken in een gesloten fles mag wel.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Eten en drinken mogen beide, zolang je opruimt]]></text>
+    <feedback format="html"><text><![CDATA[Fout: eten is niet toegelaten.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Enkel toegelaten tijdens de pauze, buiten de pauze geldt een algeheel verbod op beide]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 24 - afsluiten van de les</text></name>
+  <questiontext format="html"><text><![CDATA[Waarvoor zijn de laatste tien minuten van elk lesmoment in het labo voorzien?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Om het labo terug in orde te brengen: kabels loskoppelen en oprollen, gereedschap terugleggen, kasten afsluiten]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Om extra vragen aan de lector te stellen]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dat mag natuurlijk ook, maar dit is niet waarvoor deze tijd specifiek voorzien is.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Om alvast te starten met de volgende oefening]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Om een korte pauze te nemen]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<!-- ======================= Common sense: werken met elektriciteit ======================= -->
+
+<question type="multichoice">
+  <name><text>Veiligheid 25 - natte handen</text></name>
+  <questiontext format="html"><text><![CDATA[Mag je met natte handen aan een elektrische installatie of elektrisch gereedschap werken?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Nee: water verlaagt de overgangsweerstand van je lichaam, waardoor een stroomstoot veel gevaarlijker wordt]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Ja, zolang je rubberen handschoenen draagt over de natte handen]]></text>
+    <feedback format="html"><text><![CDATA[Fout: droog eerst je handen, vertrouw niet op handschoenen over natte handen.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Ja, dat maakt geen verschil zolang de installatie spanningsloos is geverifieerd]]></text>
+    <feedback format="html"><text><![CDATA[Fout: ook los van de spanningscontrole zelf is dit een slechte gewoonte om in aan te houden.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Ja, enkel bij installaties onder 50V is dit een probleem]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 26 - beschadigd gereedschap</text></name>
+  <questiontext format="html"><text><![CDATA[Je merkt dat de isolatie van een schroevendraaier beschadigd is. Wat doe je?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Niet gebruiken en melden aan de lector]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Zelf herstellen met isolatietape en gewoon verder gebruiken]]></text>
+    <feedback format="html"><text><![CDATA[Fout: isolatietape is geen betrouwbare herstelling voor beschadigd isolatiemateriaal op gereedschap.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Gebruiken zolang je enkel op spanningsloze kringen werkt]]></text>
+    <feedback format="html"><text><![CDATA[Fout: je mag nooit blind vertrouwen dat een kring effectief spanningsloos is, zie de Gouden Acht.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Gewoon terugleggen bij het andere gereedschap zonder het te melden]]></text>
+    <feedback format="html"><text><![CDATA[Fout: een volgende student zou het dan onwetend gebruiken.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 27 - alleen werken</text></name>
+  <questiontext format="html"><text><![CDATA[Waarom is het geen goed idee om als enige, zonder iemand in de buurt, aan een mogelijk onder spanning staande installatie te werken?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Bij een elektrische schok kan je zelf niet meer om hulp roepen of de stroom afschakelen, een omstaander kan dat wel]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Omdat je wettelijk verplicht bent om in duo's te werken, los van de veiligheid]]></text>
+    <feedback format="html"><text><![CDATA[Fout: de echte reden is de veiligheid zelf, niet enkel een formele regel.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Omdat een installatie altijd twee personen nodig heeft om fysiek te bedienen]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Dat is geen probleem, zolang je je gsm bij de hand hebt]]></text>
+    <feedback format="html"><text><![CDATA[Fout: een gsm helpt niet als je door spierkramp niet meer kan loslaten of bewusteloos raakt.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 28 - blussen van een elektrische brand</text></name>
+  <questiontext format="html"><text><![CDATA[Mag je een brand die veroorzaakt is door een elektrische installatie blussen met water, zolang de installatie nog onder spanning staat?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Nee: water geleidt elektriciteit, waardoor je zelf een elektrische schok kan krijgen]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Ja, water blust elk soort brand even veilig]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit is net heel gevaarlijk bij een elektrische brand onder spanning.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Ja, zolang je rubberen schoenen draagt]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit verkleint het risico niet voldoende om het veilig te maken.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Ja, maar enkel bij installaties op 230V, niet bij 400V]]></text>
+    <feedback format="html"><text><![CDATA[Fout.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 29 - eerste reflex bij een elektrocutie</text></name>
+  <questiontext format="html"><text><![CDATA[Een medestudent krijgt een elektrische schok en blijft vastzitten aan een spanningvoerend deel. Wat is je eerste reflex?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[De stroom uitschakelen (bijvoorbeeld via de hoofdschakelaar), niet het slachtoffer zelf vastpakken]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Het slachtoffer onmiddellijk met je handen wegtrekken]]></text>
+    <feedback format="html"><text><![CDATA[Fout: zo loop je zelf risico om via het slachtoffer stroom te krijgen.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Water over het slachtoffer gieten om het bij bewustzijn te houden]]></text>
+    <feedback format="html"><text><![CDATA[Fout: water verhoogt het gevaar zolang er nog spanning aanwezig kan zijn.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Wachten tot de lector toevallig voorbijkomt]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit is geen actieve, veilige eerste reflex.]]></text></feedback>
+  </answer>
+</question>
+
+<question type="multichoice">
+  <name><text>Veiligheid 30 - werken aan het verkeerde deel</text></name>
+  <questiontext format="html"><text><![CDATA[Je denkt dat je de juiste automaat hebt uitgeschakeld, maar bent er niet 100% zeker van. Wat is de juiste houding?]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <single>true</single>
+  <shuffleanswers>true</shuffleanswers>
+  <answernumbering>abc</answernumbering>
+  <answer fraction="100" format="html">
+    <text><![CDATA[Altijd met een spanningstester meten voor je verder werkt, ongeacht hoe zeker je denkt te zijn]]></text>
+    <feedback format="html"><text><![CDATA[Correct.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Gewoon verdergaan, de kans dat je fout zit is klein]]></text>
+    <feedback format="html"><text><![CDATA[Fout: precies dit soort aanname leidt tot ongevallen, vandaar de Gouden Acht.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Voorzichtig met één vinger even aanraken om te testen]]></text>
+    <feedback format="html"><text><![CDATA[Fout: dit is levensgevaarlijk en nooit een geldige testmethode.]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="html">
+    <text><![CDATA[Enkel verdergaan als een medestudent zegt dat het wel goed zit]]></text>
+    <feedback format="html"><text><![CDATA[Fout: enkel een effectieve meting telt, geen aanname van jezelf of van iemand anders.]]></text></feedback>
+  </answer>
+</question>
+
+</quiz>

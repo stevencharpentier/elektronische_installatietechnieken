@@ -208,19 +208,3 @@ Minimale doorsnede per gebruik (koperen geleiders):
 
 - Bij **oude installaties**: geen bijkomende differentieel of equipotentiaalverbinding vereist, maar in ruil wordt volume 2 uitgebreid tot 1 m rond volume 1 (in plaats van 0,6 m).
 - **Sauna's** en **zwembaden** hebben elk hun eigen volume-indeling en toegelaten materieel, met gelijkaardige logica maar andere afstanden en beschermingsgraden.
-
-## Bronnen
-
-- AREI Boek 1 (zie AREI.md en beveiliging.md voor de rechtstreekse artikelverwijzingen).
-- ATK, *Elektrische huishoudelijke installaties: praktische gids*, D09-nlE-07 (samenvatting van de AREI-voorschriften voor huishoudelijke installaties, met schetsen en tabellen).
-- [BouwInfo - 1 schakelaar/1 lichtpunt => 2 of 3 punten](https://bouwinfo.be/forum/technieken/elektriciteit/1-schakelaar/1-lichtpunt-2-3-punten) (definitie van een lichtpunt).
-- [Elektramat - Hoeveel stopcontacten per kamer heb je nodig?](https://www.elektramat.be/kennisbank/hoeveel-stopcontacten-per-kamer-heb-je-nodig/) en [Habitos - Hoeveel stopcontacten heb je nodig per ruimte?](https://www.habitos.be/nl/bouwen-verbouwen/hoeveel-stopcontacten-per-ruimte-plaatsen-5269) (vuistregels aantal stopcontacten, geen wettelijke verplichting meer).
-- [Atlas Contrôle - Inbreuken elektrische keuring](https://www.atlascontrole.be/nl/inbreuken-elektrische-keuring/) (drempelwaarde van 2600 W voor een exclusieve stroombaan, differentieelvereisten per toestel).
-- [Nelectra - Mode 3 laadpunten voor elektrische voertuigen](https://www.nelectra.be/stream/20210209-mode3laadpuntenvoorev-difftypeaofb-3.pdf/20210510155519) en [Volta - Keuze van de differentieelschakelaar voor EV-laadpunten](https://volta-org.be/media/qpaik2x0/20230720-mode_3_laadpunten_voor_ev-keuze_diff.pdf) (differentieel type B bij laadpalen).
-- [Atlas Contrôle - Kabeltypes in de elektrische installatie](https://www.atlascontrole.be/nl/kabeltypes-elektrische-installatie/) (VOB, XVB, H07V-K, massief versus soepel).
-- [BouwInfo - AREI: alles wat je moet weten over de aarding in je elektrische installatie](https://www.bouwinfo.be/bouwforum/threads/arei-alles-wat-je-moet-weten-over-de-aarding-in-je-elektrische-installatie.415227/) (aardingslus verplicht bij nieuwbouw, praktijkkloof met aardingspinnen).
-- [BouwInfo - Zijn er nog AREI-voordelen voor dubbelpolige schakelaar?](https://www.bouwinfo.be/bouwforum/threads/zijn-er-nog-arei-voordelen-voor-dubbelpolige-schakelaar.413277/) (dubbelpolig schakelen is gekoppeld aan het type beveiliging, niet aan de badkamer specifiek).
-- Nexans, [ALSECURE - Speel niet met vuur: CPR & AREI 2020, inleiding tot de regelgeving](https://www.nexans.be/en/dam/jcr:35fbf461-b210-4b13-91fa-97f9761f7d4c/Nexans_Alsecure_A4Brochure_NL_LR.pdf) (exacte AREI-tekst over de brandreactieklasse Eca/Cca van kabels).
-- [MWS Wire - Copper-Clad Aluminum Wire Guide](https://mwswire.com/copper-clad-aluminum-wire-guide-pros-cons-and-what-you-need-to-know/) en [Wikipedia - Copper-clad aluminium wire](https://en.wikipedia.org/wiki/Copper-clad_aluminium_wire) (definitie van CCA-geleiders).
-- ATK, *Huishoudelijke elektrische installaties*, D09-nlE1-09 (tweede, onafhankelijke bevestiging van de kleurcoderegel: enkel blauw voor N en geel-groen voor PE zijn verplicht).
-- [Elektrakoning - Kamrail: functie, afmetingen en montage](https://www.elektrakoning.nl/kamrail) (werking, steekmaten en veiligheid van een kamrail/aansluitkam).
