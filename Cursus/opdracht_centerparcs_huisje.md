@@ -110,11 +110,4 @@ Duid op je situatieplan expliciet aan:
 2. **Situatieplan** (Trikker): grondplan met alle 7 ruimtes op het zicht correct in verhouding, deuren, symbolen op hun werkelijke plaats, badkamervolumes expliciet getekend.
 3. **Materiaallijst**: de automatisch gegenereerde lijst vanuit Trikker, gebaseerd op je eendraadschema.
 
-## Nog te verduidelijken / extra instructies die je zelf kan toevoegen
 
-Dit is een eerste volledige versie van de opdracht. Enkele punten die je eventueel nog explicieter kan maken voor je dit aan de studenten geeft:
-
-- **Beoordelingscriteria**: wil je een puntenverdeling per onderdeel (eendraadschema / situatieplan / materiaallijst / motivatie van keuzes), of een andere vorm van feedback?
-- **Deadline en in te leveren bestandsformaat**: Trikker-bestand zelf, of ook een PDF-export?
-- **Individueel of in duo's**?
-- **Mag je een bijlage toevoegen met de berekening van je kringindeling** (bijvoorbeeld een tabel zoals in het tuinhuisvoorbeeld), of volstaat het correct ingevulde eendraadschema als bewijs van je redenering?
