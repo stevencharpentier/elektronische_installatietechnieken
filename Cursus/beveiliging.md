@@ -264,6 +264,7 @@ Deze beschermen tegen **onrechtstreekse (en deels rechtstreekse) aanraking**: ze
 
 - Elke huisinstallatie heeft minstens **één differentieelstroominrichting van maximaal 300 mA** aan het begin van de installatie.
 - Voor stopcontacten en voor toestellen zoals wasmachines, droogkasten en afwasmachines in een badkamer is **bijkomend een differentieelstroominrichting van maximaal 30 mA** verplicht: dit is de grens die in de tabel hierboven het verschil maakt tussen "gevaarlijk" en "veilig, zelfs bij langere blootstelling".
+- Achter **één 30 mA-differentieel** mogen maximaal **8 kringen** hangen. Dit is geen willekeurige grens: elk toestel met elektronica (voedingen, led-drivers,...) heeft bij normaal, foutloos gebruik al een kleine, onvermijdelijke lekstroom via zijn netfilter. Hang je te veel kringen achter dezelfde 30 mA-differentieel, dan kan de **som** van al die kleine, volkomen normale lekstromen de 30 mA-drempel benaderen of overschrijden, met een onverklaarbare uitschakeling tot gevolg zonder dat er ergens een echt defect is.
 
 Hoe een differentieelschakelaar reageert op de twee soorten fouten van hierboven: bij een kortsluiting tussen fasen (geen verschil in binnen- en buitengaande stroom) schakelt hij niet zelf uit (dat is het werk van de automaat/smeltveiligheid), maar bij een verliesstroom (aardfout) merkt hij het verschil tussen in- en uitgaande stroom en schakelt hij wel uit:
 
@@ -288,3 +289,14 @@ Dit is exact wat we in het labo gaan herkennen en aansluiten: eerst de hoofdscha
 Zo ziet dat er schematisch uit in een modulair verdeelbord (elk blokje een automaat of differentieel, met zijn aansluitpunten boven en onder):
 
 ![Automaten in een verdeelbord](../Slides/images/verdeelbord_automaten_icoon.png)
+
+## Hoeveel plaats neemt dit in de kast in?
+
+Een verdeelbord bestaat uit rijen van een vast aantal **modules** (elk 18 mm breed). Hoeveel modules elk toestel inneemt, hangt af van het aantal polen dat het moet schakelen:
+
+- **Eénpolige automaat** (het gebruikelijke geval voor een gewone stroombaan in een woning, die enkel de fase moet onderbreken): **1 module**.
+- **Tweepolige toestellen** (fase én nul samen onderbroken): **2 modules**. Dit geldt voor de **hoofdschakelaar** en voor een **differentieelstroominrichting** (zowel de algemene 300 mA als een bijkomende 30 mA), want die moeten altijd beide geleiders tegelijk schakelen.
+
+Dit bepaalt rechtstreeks hoeveel kringen je in een kast van een bepaalde grootte kwijt kan: een rij van 18 modules met een hoofdschakelaar (2), een algemene differentieel (2) en bijvoorbeeld twee bijkomende 30 mA-differentiëlen (2 x 2 = 4) laat nog **10 modules** over voor automaten, dus maximaal 10 afzonderlijke kringen op die rij.
+
+**Uitzondering**: er bestaan ook **tweepolige automaten op 1 module breed** (een compacter intern mechanisme), specifiek bedoeld als oplossing voor krappe kasten. Deze zijn duurder dan de gewone, 2 modules brede uitvoering, maar kunnen nuttig zijn als je op een beperkt aantal modules toch meer kringen kwijt moet.

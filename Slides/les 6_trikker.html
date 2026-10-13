@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Elektronische installatietechnieken - Les 6 Trikker</title>
+
+		<meta name="description" content="Elektronische installatietechnieken - Les 6 Trikker: algemene introductie">
+		<meta name="author" content="Steven Charpentier">
+
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/dracula.css" id="theme">
+		<link rel="stylesheet" href="APstyle.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+		<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+            <div class="slides">
+    <section data-markdown>
+  <script type="text/template">
+### Trikker
+## Algemene introductie
+
+---
+
+## Wat is Trikker?
+
+- Belgisch tekenprogramma (Bluebits), specifiek voor elektriciens
+- Eendraadschema **en** situatieplan tekenen volgens het AREI
+- De twee schema's blijven **gekoppeld** aan elkaar
+
+---
+
+## Waarom Trikker en niet EPLAN?
+
+- **EPLAN**: gebouwd voor **industriële besturingssystemen** (PLC's, machinekasten), niet voor AREI-eendraadschema's
+- **EPLAN**: €4.000 tot meer dan €15.000
+- **Trikker**: €360-540/jaar, gratis educatieve licenties voor scholen
+- Voor woninginstallaties: EPLAN is het **verkeerde gereedschap én onnodig duur**
+
+---
+
+## De volgorde: altijd eendraadschema eerst
+
+<div class="mermaid">
+graph LR
+    E["Eendraadschema"] --> S["Situatieplan"]
+    S --> P["Export: PDF, klaar voor keuring"]
+</div>
+
+---
+
+## Stap 1: eendraadschema
+
+- AREI-symbolen (beveiligingen, stroombanen) op je blad slepen
+- Kringen verbinden
+- Hier leg je vast: welke stroombanen, welke beveiliging, hoeveel aftakpunten
+
+---
+
+## Stap 2: situatieplan
+
+- Grondplan tekenen, of een **DWG/DXF-bestand** importeren als achtergrond
+- Symbolen op hun werkelijke locatie plaatsen
+- Kringletter en symbool lopen **automatisch gelijk** met het eendraadschema
+
+---
+
+## Waarom deze volgorde niet omgekeerd?
+
+- Zonder eendraadschema weet Trikker niet welke kringletters en symbolen beschikbaar zijn
+- Wijzig je het eendraadschema, dan past het situatieplan zich automatisch aan
+
+---
+
+## Werken met meerdere verdiepingen
+
+- Een situatieplan bestaat uit **pagina's**
+- Typisch: **één pagina per verdieping**, elk met eigen grondplan en symbolen
+- Demoversie: beperkt tot 1 pagina
+- Volledige versie: onbeperkt aantal pagina's
+
+---
+
+## Automatische materiaallijst
+
+- Trikker stelt automatisch een **materiaallijst** samen uit je eendraadschema
+- Alle gebruikte symbolen (schakelaars, stopcontacten, beveiligingen,...) geteld en gelijst
+- Geen manueel bijhouden meer nodig
+
+---
+
+## Van materiaallijst naar bestellijst
+
+- De materiaallijst is je vertrekpunt om effectief materiaal aan te kopen
+- Vergelijk prijzen bij verschillende **online winkels** (groothandels, webshops)
+- Keuze van materiaal hangt af van **budget** en **doeleinde** van de installatie
+- Niet elk onderdeel moet van hetzelfde merk of prijsniveau komen
+
+---
+
+## Voorbeelden: prijzen online zichtbaar
+
+- **Gamma, Hubo en Brico**: drie zeer gelijkaardige doe-het-zelfketens, prijzen rechtstreeks op elke productpagina, geen account nodig
+- **Groothandel.be**: elektrogroothandel voor particulieren, doe-het-zelvers én professionals, prijzen voor iedereen zichtbaar
+- **Zelektro**: webshop (+ winkel in Bornem) voor schakelmateriaal en verlichting, prijzen zichtbaar per product
+
+---
+
+## Let op: niet elke groothandel toont prijzen publiek
+
+- Grotere professionele groothandels (bv. Cebeo) vragen eerst een klantaccount
+- Reden: zij hanteren per klant andere, vaak lagere staffelprijzen dan de "kassa"-prijs voor een particulier
+
+---
+
+## Andere functies
+
+- **Import**: DWG/DXF-tekening (bv. van een architect) als achtergrond
+- **Export**: vectoriële PDF, in één klik klaar voor de keuring
+- **Symbolenbibliotheek** volgens de officiële AREI-symbolen, per kringletter
+- **Vrij tekenen**: eigen symbolen maken
+- **Automatische lokale back-up**
+
+---
+
+## Praktijkvoorbeeld
+### Een tuinhuis als addendum
+
+- 1 ruimte, 1 deur, 2 ramen
+- Binnen: 5 stopcontactpunten (3 dubbel boven werkblad)
+- Buiten: 1 stopcontactpunt
+- 1 lichtpunt binnen + 1 lichtpunt buiten, **beide geschakeld vanuit binnen**
+- Eigen bordje in het tuinhuis, bestaand hoofdbord in de kelder op **30 m**
+
+---
+
+## Eén plaats, twee lichtpunten
+
+- Binnen- en buitenlicht, beide bediend vanuit dezelfde plaats
+- Het schoolvoorbeeld van een **serieschakelaar** (zie les 3)
+- Geen twee aparte enkelpolige schakelaars nodig
+
+---
+
+## Indeling in stroombanen
+
+- **Stopcontactkring**: 6 punten (5 binnen + 1 buiten), ruim onder de limiet van 8
+  - 2,5 mm², automaat **20 A** (zuivere stopcontactkring: gangbare praktijkwaarde in België; 16 A hoort bij een gemengde kring)
+- **Verlichtingskring**: apart van de stopcontacten
+  - 1,5 mm², automaat 10 A
+- Bewust **niet** op 1 gemengde kring (6+2=8 zou nét passen): een fout op stopcontacten trekt dan niet de verlichting mee
+
+---
+
+## Voeding naar het tuinhuis: 30 m
+
+- EXVB **3G6** (L, N, PE) ondergronds, minstens **60 cm diep**, enkelvoudig gelegd
+- 3 geleiders: eenfasig, aarde komt mee vanuit de woning
+- Doorsnede bepaald door **spanningsval**, niet enkel tabel 4.11
+- Ontwerpstroom: 20 A + 10 A = 30 A (geen gelijktijdigheidsfactor)
+
+---
+
+## Spanningsval: doorsnede kiezen
+
+- Hoe kleiner de doorsnede, hoe groter de spanningsval over 30 m
+- Hoe groter de doorsnede, hoe meer marge, maar ook hoe duurder
+- Gekozen: **6 mm²**, met voldoende marge binnen de wettelijke tolerantie
+
+---
+
+## Aarding: PE komt mee vanuit de woning
+
+- Geen eigen, lokale aardingspen voor dit tuinhuis
+- De aarde (PE) wordt meegevoed via de 3G6-kabel
+- Eén consistente aarding voor de hele installatie
+
+---
+
+## Het tuinhuisbordje: één gecombineerd toestel
+
+- **Differentieelautomaat, 2P, Type A, 30 mA, 25 A**: combineert overstroombeveiliging van de kabel, 30 mA-aardlekbeveiliging, én hoofdschakelaar-functie in 1 toestel
+  - Mag: een hoofdschakelaar mag een schakelaar, differentieel, of automaat zijn
+- **Waarom 25 A, en niet 20+10=30 A?** Bewuste **gelijktijdigheidsfactor**: beide kringen trekken zelden tegelijk hun volle stroom
+- Daarna 2 automaten: **20 A** (stopcontacten), **10 A** (verlichting)
+
+---
+
+## IP-graad buiten
+
+- Stopcontact en lichtpunt buiten: **niet beschut**, geen overstek
+- Daarom voorzichtig gekozen: **IP65**, in plaats van het minimum IP44
+
+---
+
+## Materiaallijst: enkele kernonderdelen
+
+- Onderverdeelbord + differentieelautomaat 25 A/30 mA + automaten 20 A / 10 A
+- EXVB 3G6 (±32 m), aarde vanuit de woning
+- 3 dubbele + 2 enkele stopcontacten binnen, 1 IP65 buiten
+- 2 lichtpunt-aansluitingen (1 IP65), 1 serieschakelaar
+
+---
+
+## In Trikker
+
+1. **Eendraadschema**: nieuwe stroombaan vanaf het bestaand bord, 2 kringen vanaf het tuinhuisbordje
+2. **Situatieplan**: tuinhuis als aparte pagina, symbolen op hun werkelijke plaats
+3. **Materiaallijst**: automatisch gegenereerd, klaar om naast Gamma, Hubo, Brico, Groothandel.be en Zelektro te leggen voor een bestellijst
+
+---
+
+## Waar vind je hulp?
+
+- Volledige handleiding **ingebouwd in het programma**: tabblad "Extra", of **F1**
+- Volgt automatisch je geïnstalleerde versie
+- FAQ-pagina met downloadbare voorbeeldbestanden (zonnepanelen, noodgenerator, hoofdverdeling)
+- Community forum
+
+---
+
+## Bronnen
+
+- [trikker.be](https://www.trikker.be)
+- [trikker.be/faq](https://www.trikker.be/faq)
+- [trikker.be/pricing](https://www.trikker.be/pricing)
+
+  </script>
+</section>
+</div></div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			}).then(() => {
+				mermaid.initialize({ startOnLoad: false, theme: 'base', themeVariables: {
+					primaryColor: '#F7F2F2',
+					primaryBorderColor: '#97000C',
+					primaryTextColor: '#231F20',
+					lineColor: '#68676C',
+					background: '#FFFFFF'
+				} });
+				mermaid.run({ querySelector: '.mermaid' }).then(() => Reveal.layout());
+				Reveal.addEventListener('slidechanged', () => {
+					mermaid.run({ querySelector: '.mermaid' }).then(() => Reveal.layout());
+				});
+
+				// Afbeeldingen laden asynchroon in. Reveal berekent de verticale
+				// centrering ("center: true") op het moment van wisselen, dus vóór
+				// een afbeelding klaar is met laden. Zonder herberekening blijft de
+				// slide dan gecentreerd staan op de (kleinere) hoogte zonder afbeelding,
+				// waardoor de afbeelding te laag lijkt te staan. Na elke load: opnieuw layouten.
+				document.querySelectorAll('.reveal img').forEach((img) => {
+					if (img.complete) return;
+					img.addEventListener('load', () => Reveal.layout());
+				});
+			});
+
+		</script>
+</body>
+
+</html>
