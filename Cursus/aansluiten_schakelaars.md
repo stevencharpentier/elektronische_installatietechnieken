@@ -4,10 +4,10 @@
 
 Dit is je eerste echte bekabelingsoefening. Voor je ook maar één draad vastschroeft:
 
-- **Maak de kring spanningsloos** en controleer dat met een spanningstester, niet enkel door de automaat om te zetten.
-- Werk op een **oefenbordje met losse componenten**, niet rechtstreeks in de kast.
-- Herbekijk het **stroombaanschema** van de schakeling die je gaat bouwen (zie schemas.md) vóór je begint te bedraden: je weet pas wat je aansluit als je weet hoe het hoort te werken.
-- **Gereedschap**: kruisschroevendraaier (de meeste Niko-binnenwerken gebruiken schroefklemmen), striptang, eventueel een krimptang met adereindhulzen als je met soepele draad werkt (zie installatieregels.md, thema "bedrading in het verdeelbord").
+* **Maak de kring spanningsloos** en controleer dat met een spanningstester, niet enkel door de automaat om te zetten.
+* Werk op een **oefenbordje met losse componenten**, niet rechtstreeks in de kast.
+* Herbekijk het **stroombaanschema** van de schakeling die je gaat bouwen (zie schemas.md) vóór je begint te bedraden: je weet pas wat je aansluit als je weet hoe het hoort te werken.
+* **Gereedschap**: kruisschroevendraaier (de meeste Niko-binnenwerken gebruiken schroefklemmen), striptang, eventueel een krimptang met adereindhulzen als je met soepele draad werkt (zie installatieregels.md, thema "bedrading in het verdeelbord").
 
 **Let op**: Niko gebruikt meerdere productreeksen (Original, Pure, Intense,...) en zowel schroef- als insteekklemmen. De schema's hieronder zijn de **officiële aansluitschema's van Niko zelf** (uit hun datasheets op niko.eu). Controleer bij een ander model altijd het schemaatje dat op de achterkant van het binnenwerk zelf gedrukt staat.
 
@@ -19,12 +19,12 @@ Een enkelvoudige schakelaar heeft **2 klemmen**. Hij onderbreekt enkel de **fase
 
 ### Klemmen
 
-- **L**: de inkomende fasedraad, van de beveiliging in het bord.
-- **1**: de vertrekkende schakeldraad, naar de lamp/het lichtpunt.
+* **L**: de inkomende fasedraad, van de beveiliging in het bord.
+* **1**: de vertrekkende schakeldraad, naar de lamp/het lichtpunt.
 
 ### Officieel aansluitschema (Niko 170-71115)
 
-![Niko aansluitschema enkelvoudige schakelaar](../Slides/images/niko_enkelvoudig_aansluitschema.png)
+![Niko aansluitschema enkelvoudige schakelaar](.gitbook/assets/niko_enkelvoudig_aansluitschema.png)
 
 ### Stappen
 
@@ -44,13 +44,13 @@ Een wisselschakelaar heeft **3 klemmen**: één voor de inkomende/vertrekkende f
 
 ### Klemmen (typisch op een Niko-binnenwerk)
 
-- **L**: bij de eerste wisselschakelaar, de inkomende fase vanaf de beveiliging.
-- **1 en 1'** (soms benoemd als P1/P2): de twee wisselcontacten, verbonden met de overeenkomstige klemmen van de tweede wisselschakelaar.
-- Bij de tweede wisselschakelaar komt de vertrekkende schakeldraad naar de lamp op de klem die overeenkomt met "L" op de eerste.
+* **L**: bij de eerste wisselschakelaar, de inkomende fase vanaf de beveiliging.
+* **1 en 1'** (soms benoemd als P1/P2): de twee wisselcontacten, verbonden met de overeenkomstige klemmen van de tweede wisselschakelaar.
+* Bij de tweede wisselschakelaar komt de vertrekkende schakeldraad naar de lamp op de klem die overeenkomt met "L" op de eerste.
 
 ### Officieel aansluitschema (Niko 170-71615)
 
-![Niko aansluitschema wisselschakeling](../Slides/images/niko_wissel_aansluitschema.png)
+![Niko aansluitschema wisselschakeling](.gitbook/assets/niko_wissel_aansluitschema.png)
 
 ### Stappen
 
@@ -71,16 +71,15 @@ Een kruisschakeling bouw je verder op de wisselschakeling: je **plaatst een krui
 
 Op het officiële Niko-binnenwerk (170-71715) zijn de 4 klemmen van de kruisschakelaar **niet genummerd** zoals bij de wisselschakelaar (geen "L, 1, 1'"), maar enkel gemarkeerd met een klein symbool. Dat is geen vergissing: de kruisschakelaar is **symmetrisch opgebouwd**, dus het maakt niet uit welke van de twee linkse klemmen je voor welke wisseldraad van wisselschakelaar 1 gebruikt, zolang je:
 
-- **2 klemmen aan één kant** verbindt met de 2 wisseldraden van wisselschakelaar 1
-- **de 2 klemmen aan de andere kant** verbindt met de 2 wisseldraden van wisselschakelaar 2
-
-- De wisselschakelaars blijven ongewijzigd aangesloten zoals hierboven (L op fase, lichtpunt aan de overeenkomstige klem van de tweede).
-- In plaats van de twee wisselschakelaars rechtstreeks met elkaar te verbinden, onderbreek je die twee wisseldraden en leid je ze via de kruisschakelaar: de 2 wisseldraden van wisselschakelaar 1 naar de 2 klemmen aan één kant, de 2 wisseldraden van wisselschakelaar 2 naar de 2 klemmen aan de andere kant.
-- Wil je vanaf een **4de of 5de plaats** kunnen schakelen, plaats je gewoon een extra kruisschakelaar in serie tussen de twee wisselschakelaars.
+* **2 klemmen aan één kant** verbindt met de 2 wisseldraden van wisselschakelaar 1
+* **de 2 klemmen aan de andere kant** verbindt met de 2 wisseldraden van wisselschakelaar 2
+* De wisselschakelaars blijven ongewijzigd aangesloten zoals hierboven (L op fase, lichtpunt aan de overeenkomstige klem van de tweede).
+* In plaats van de twee wisselschakelaars rechtstreeks met elkaar te verbinden, onderbreek je die twee wisseldraden en leid je ze via de kruisschakelaar: de 2 wisseldraden van wisselschakelaar 1 naar de 2 klemmen aan één kant, de 2 wisseldraden van wisselschakelaar 2 naar de 2 klemmen aan de andere kant.
+* Wil je vanaf een **4de of 5de plaats** kunnen schakelen, plaats je gewoon een extra kruisschakelaar in serie tussen de twee wisselschakelaars.
 
 ### Officieel aansluitschema (Niko 170-71715)
 
-![Niko aansluitschema kruisschakeling](../Slides/images/niko_kruis_aansluitschema.png)
+![Niko aansluitschema kruisschakeling](.gitbook/assets/niko_kruis_aansluitschema.png)
 
 ### Stappen
 
@@ -96,10 +95,10 @@ Voor je een schakeling fysiek bouwt, is het een goede gewoonte om eerst een **be
 
 ## Veelgemaakte fouten
 
-- De nulgeleider per ongeluk via de schakelaar laten lopen in plaats van rechtstreeks naar het lichtpunt: de lamp lijkt dan soms te werken, maar de behuizing van het lichtpunt blijft onder spanning staan zolang de schakelaar "uit" staat maar de nulleider wel nog fase voert. Gevaarlijk en een duidelijke reden tot afkeuring.
-- Wisseldraden en fase door elkaar halen: gebruik een consistente, herkenbare kleur voor de wisseldraden, en controleer altijd met een spanningstester vóór je verder test.
-- De twee wisseldraden van wisselschakelaar 1 niet samen aan dezelfde kant van de kruisschakelaar aansluiten (bv. één links, één rechts): de schakeling werkt dan niet correct vanaf alle plaatsen. Controleer het schema op de achterkant van het binnenwerk.
+* De nulgeleider per ongeluk via de schakelaar laten lopen in plaats van rechtstreeks naar het lichtpunt: de lamp lijkt dan soms te werken, maar de behuizing van het lichtpunt blijft onder spanning staan zolang de schakelaar "uit" staat maar de nulleider wel nog fase voert. Gevaarlijk en een duidelijke reden tot afkeuring.
+* Wisseldraden en fase door elkaar halen: gebruik een consistente, herkenbare kleur voor de wisseldraden, en controleer altijd met een spanningstester vóór je verder test.
+* De twee wisseldraden van wisselschakelaar 1 niet samen aan dezelfde kant van de kruisschakelaar aansluiten (bv. één links, één rechts): de schakeling werkt dan niet correct vanaf alle plaatsen. Controleer het schema op de achterkant van het binnenwerk.
 
 ## Bronnen
 
-- Niko, officiële datasheets (niko.eu): [170-71115](https://cdn.niko.eu/170-71115/nl-NL/main_datasheet.pdf) (enkelvoudige schakelaar), [170-71615](https://cdn.niko.eu/170-71615/nl-NL/main_datasheet.pdf) (wisselschakelaar), [170-71715](https://cdn.niko.eu/170-71715/nl-NL/main_datasheet.pdf) (kruisschakelaar)
+* Niko, officiële datasheets (niko.eu): [170-71115](https://cdn.niko.eu/170-71115/nl-NL/main_datasheet.pdf) (enkelvoudige schakelaar), [170-71615](https://cdn.niko.eu/170-71615/nl-NL/main_datasheet.pdf) (wisselschakelaar), [170-71715](https://cdn.niko.eu/170-71715/nl-NL/main_datasheet.pdf) (kruisschakelaar)

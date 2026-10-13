@@ -5,7 +5,7 @@ site:
     - type: space
       key: elektronische-installatietechnieken
       title: Elektronische installatietechnieken
-      path: /
+      path: undefined
       default: true
       content:
         directory: ./
