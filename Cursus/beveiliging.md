@@ -8,26 +8,26 @@ Voor we het over netstelsels en zekeringen hebben, eerst de vraag waar het allem
 
 Hoe gevaarlijk een elektrische schok is, hangt vooral af van de stroomsterkte die door het lichaam vloeit (uitgedrukt in mA) en van hoe lang die stroom blijft vloeien. De internationale norm **IEC 60479-1** verdeelt de effecten van wisselstroom op het lichaam in vier zones, van "geen reactie" tot "levensgevaarlijk". Binnen die zones is er één punt waarvoor gedetailleerd onderzoek bestaat met een duidelijk verschil tussen man en vrouw: de **loslaatgrens** (let-go current), het punt waarop spierkramp het onmogelijk maakt om een spanningvoerend voorwerp zelf nog los te laten. Dit onderzoek (Dalziel) toont aan dat vrouwen gemiddeld bij een lagere stroomsterkte al niet meer kunnen loslaten dan mannen, vermoedelijk door het gemiddelde verschil in lichaamsmassa en spierkracht.
 
-| Stroomsterkte (Ib) | Effect op het lichaam | Verschil man / vrouw |
-|---|---|---|
-| < 0,5 mA | Meestal geen enkele reactie waarneembaar | Geen relevant verschil gedocumenteerd |
-| 0,5 - 5 mA | Voelbare tinteling of prikkeling, geen schadelijke fysiologische effecten | Geen relevant verschil gedocumenteerd |
-| 6 mA | Grens waaronder zo goed als iedereen nog zelf kan loslaten | 99,5% van de vrouwen kan hier nog loslaten |
-| 9 mA | Grens waaronder zo goed als iedereen nog zelf kan loslaten | 99,5% van de mannen kan hier nog loslaten |
-| ≈ 10,5 mA | Gemiddelde loslaatgrens: vanaf hier lukt het bij de helft van de mensen niet meer om zelf los te laten | Gemiddelde bij vrouwen ≈ 10,5 mA |
-| ≈ 16 mA | Gemiddelde loslaatgrens | Gemiddelde bij mannen ≈ 15,9 mA |
-| 15 - 23 mA | Spierkramp, mogelijk beginnende ademhalingsproblemen | Bovengrens loslaatgrens: vrouw ≈ 15 mA, man ≈ 23 mA |
-| 20 - 30 mA | Ademhalingsmoeilijkheden: spierkramp kan de ademhalingsspieren blokkeren | Geen apart gedocumenteerd verschil |
-| > 30 mA | Vanaf hier is een dodelijke afloop bij een stroom van hand naar voet reëel mogelijk, tenzij de stroom snel wordt uitgeschakeld. **Dit is exact de reden waarom de wettelijke bijkomende bescherming (differentieelschakelaar) op maximaal 30 mA is vastgelegd** | - |
-| 50 - 100 mA (bij langere blootstelling) | Sterk stijgend risico op kamerfibrilleren (ventrikelfibrillatie), een levensbedreigende hartritmestoornis | - |
-| 100 - 200 mA | Grote kans op hartritmestoornissen en hartstilstand | - |
-| > 200 mA tot enkele A | Zware inwendige verbranding en hartstilstand, dood zeer waarschijnlijk | - |
+| Stroomsterkte (Ib)                      | Effect op het lichaam                                                                                                                                                                                                                                           | Verschil man / vrouw                                |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| < 0,5 mA                                | Meestal geen enkele reactie waarneembaar                                                                                                                                                                                                                        | Geen relevant verschil gedocumenteerd               |
+| 0,5 - 5 mA                              | Voelbare tinteling of prikkeling, geen schadelijke fysiologische effecten                                                                                                                                                                                       | Geen relevant verschil gedocumenteerd               |
+| 6 mA                                    | Grens waaronder zo goed als iedereen nog zelf kan loslaten                                                                                                                                                                                                      | 99,5% van de vrouwen kan hier nog loslaten          |
+| 9 mA                                    | Grens waaronder zo goed als iedereen nog zelf kan loslaten                                                                                                                                                                                                      | 99,5% van de mannen kan hier nog loslaten           |
+| ≈ 10,5 mA                               | Gemiddelde loslaatgrens: vanaf hier lukt het bij de helft van de mensen niet meer om zelf los te laten                                                                                                                                                          | Gemiddelde bij vrouwen ≈ 10,5 mA                    |
+| ≈ 16 mA                                 | Gemiddelde loslaatgrens                                                                                                                                                                                                                                         | Gemiddelde bij mannen ≈ 15,9 mA                     |
+| 15 - 23 mA                              | Spierkramp, mogelijk beginnende ademhalingsproblemen                                                                                                                                                                                                            | Bovengrens loslaatgrens: vrouw ≈ 15 mA, man ≈ 23 mA |
+| 20 - 30 mA                              | Ademhalingsmoeilijkheden: spierkramp kan de ademhalingsspieren blokkeren                                                                                                                                                                                        | Geen apart gedocumenteerd verschil                  |
+| > 30 mA                                 | Vanaf hier is een dodelijke afloop bij een stroom van hand naar voet reëel mogelijk, tenzij de stroom snel wordt uitgeschakeld. **Dit is exact de reden waarom de wettelijke bijkomende bescherming (differentieelschakelaar) op maximaal 30 mA is vastgelegd** | -                                                   |
+| 50 - 100 mA (bij langere blootstelling) | Sterk stijgend risico op kamerfibrilleren (ventrikelfibrillatie), een levensbedreigende hartritmestoornis                                                                                                                                                       | -                                                   |
+| 100 - 200 mA                            | Grote kans op hartritmestoornissen en hartstilstand                                                                                                                                                                                                             | -                                                   |
+| > 200 mA tot enkele A                   | Zware inwendige verbranding en hartstilstand, dood zeer waarschijnlijk                                                                                                                                                                                          | -                                                   |
 
 Deze tabel verklaart meteen waarom een differentieelschakelaar (aardlekschakelaar) voor bijkomende bescherming standaard op **30 mA** wordt ingesteld: dat is ruim onder de grens van 30 mA waarbij een dodelijke afloop reëel wordt, en dus ruim voor het lichaam in het echt gevaarlijke gebied terechtkomt.
 
 Ter vergelijking, dezelfde indeling zoals ze courant in vakliteratuur wordt weergegeven:
 
-![Effect van stroomsterkte op het menselijk lichaam](../Slides/images/gevaren_stroom_tabel.png)
+![Effect van stroomsterkte op het menselijk lichaam](.gitbook/assets/gevaren_stroom_tabel.png)
 
 **Bronnen**: ABB, [Bescherming tegen aardfouten met aardlekschakelaars](https://library.e.abb.com/public/90eb73c52c9e0eb8c1257cf500425f03/1SPC801069B3101%20info%20aardlek.pdf) (gebaseerd op IEC 60479-1); C.F. Dalziel, onderzoek naar de loslaatgrens (let-go current) bij mannen en vrouwen, zoals hernomen in [IAEI Magazine - The History of GFCI Protection in the NEC](https://iaeimagazine.org/issue/2024-summer/the-history-of-gfci-protection-in-the-nec/).
 
@@ -35,26 +35,26 @@ Ter vergelijking, dezelfde indeling zoals ze courant in vakliteratuur wordt weer
 
 Een netstelsel beschrijft hoe de nulleider (N) en de aarding (PE) van een elektrisch net ten opzichte van elkaar en ten opzichte van de aarde zijn opgebouwd. Dit bepaalt rechtstreeks hoe je een installatie moet beveiligen tegen onrechtstreekse aanraking. Het AREI onderscheidt drie families: **TN**, **TT** en **IT**. De eerste letter zegt hoe het net (de bron) geaard is, de tweede letter zegt hoe de massa's (de behuizingen van de toestellen) geaard zijn.
 
-- **T** (bron): het sterpunt van de bron (transfo) is rechtstreeks geaard
-- **I** (bron): het sterpunt van de bron is geïsoleerd van de aarde, of verbonden via een hoge impedantie
-- **T** (massa's): de massa's van de toestellen zijn rechtstreeks geaard
-- **N** (massa's): de massa's zijn verbonden met de nulleider van het net (die op zijn beurt bij de bron geaard is)
+* **T** (bron): het sterpunt van de bron (transfo) is rechtstreeks geaard
+* **I** (bron): het sterpunt van de bron is geïsoleerd van de aarde, of verbonden via een hoge impedantie
+* **T** (massa's): de massa's van de toestellen zijn rechtstreeks geaard
+* **N** (massa's): de massa's zijn verbonden met de nulleider van het net (die op zijn beurt bij de bron geaard is)
 
 Onze laagspanningsnetten zijn **driefasig**: de transfo levert drie fasen (L1, L2, L3) plus een nulleider (N), samen goed voor 230V tussen een fase en de nulleider, en 380V (eigenlijk 400V, maar 380V is de gangbare term) tussen twee fasen onderling. Vanaf hier tekenen we daarom telkens alle drie de fasen mee, samen met **twee soorten fouten**:
 
-- een **aardfout** (rood): een fase komt in contact met de massa van een toestel, en de foutstroom zoekt een weg terug naar de bron via PE (of via de grond bij TT). Dit is de fout waarbij een persoon gevaar loopt.
-- een **kortsluiting tussen twee fasen** (paars, 380V): bijvoorbeeld doordat de isolatie tussen twee fasegeleiders beschadigd raakt. Deze fout heeft **niets te maken met de aarding** van het net (ze gebeurt dus op exact dezelfde manier bij TN, TT of IT), maar is minstens even gevaarlijk door de zeer hoge kortsluitstroom en het risico op brand en vlamboog.
+* een **aardfout** (rood): een fase komt in contact met de massa van een toestel, en de foutstroom zoekt een weg terug naar de bron via PE (of via de grond bij TT). Dit is de fout waarbij een persoon gevaar loopt.
+* een **kortsluiting tussen twee fasen** (paars, 380V): bijvoorbeeld doordat de isolatie tussen twee fasegeleiders beschadigd raakt. Deze fout heeft **niets te maken met de aarding** van het net (ze gebeurt dus op exact dezelfde manier bij TN, TT of IT), maar is minstens even gevaarlijk door de zeer hoge kortsluitstroom en het risico op brand en vlamboog.
 
 **Kleurcode in de diagrammen**: enkel de kleur van **N** (blauw) en **PE** (groen-geel) ligt wettelijk vast. Zodra een kring een nulgeleider bevat, is blauw **voorbehouden** voor die nulgeleider en mag het niet voor een fasegeleider gebruikt worden (is er geen nulgeleider, dan mag blauw wel voor iets anders dienen). Geel-groen is op dezelfde manier voorbehouden voor de beschermingsgeleider. Voor de fasegeleiders L1, L2 en L3 legt het AREI zelf **geen specifieke kleur per fase** op: bruin/zwart/grijs is wel de gangbare praktijkconventie (IEC 60446), maar geen AREI-verplichting. In onderstaande diagrammen gebruiken we die conventie omdat ze het meest herkenbaar is:
 
-- **L1** - bruin (conventie, niet verplicht)
-- **L2** - zwart (conventie, niet verplicht)
-- **L3** - grijs (conventie, niet verplicht)
-- **N** - blauw (**verplicht**, indien de kring een nulgeleider heeft)
-- **PE / PEN** - groen (werkelijk groen-geel, **verplicht**)
-- **Aardfout / foutstroom naar een massa** - rood
-- **Kortsluiting tussen twee fasen (380V)** - paars
-- **Eerste fout in een IT-net (kleine, ongevaarlijke lekstroom)** - oranje
+* **L1** - bruin (conventie, niet verplicht)
+* **L2** - zwart (conventie, niet verplicht)
+* **L3** - grijs (conventie, niet verplicht)
+* **N** - blauw (**verplicht**, indien de kring een nulgeleider heeft)
+* **PE / PEN** - groen (werkelijk groen-geel, **verplicht**)
+* **Aardfout / foutstroom naar een massa** - rood
+* **Kortsluiting tussen twee fasen (380V)** - paars
+* **Eerste fout in een IT-net (kleine, ongevaarlijke lekstroom)** - oranje
 
 ### TN-S
 
@@ -89,10 +89,7 @@ Omdat de PE-geleider metallisch teruggaat naar de bron, vormt de aardfout een la
 
 Dezelfde opbouw, in de klassieke vakliteratuur-stijl getekend: de basisopbouw, de kortsluitstroom, de verliesstroom (aardfout) en tot slot met een differentieelschakelaar die de verliesstroom detecteert:
 
-![TN-net, basisopbouw](../Slides/images/net_tns_basis.png)
-![TN-net, kortsluitstroom](../Slides/images/net_tns_kortsluitstroom.png)
-![TN-net, verliesstroom](../Slides/images/net_tns_verliesstroom.png)
-![TN-net met differentieelschakelaar](../Slides/images/net_tns_differentieel.png)
+![TN-net, basisopbouw](.gitbook/assets/net_tns_basis.png) ![TN-net, kortsluitstroom](.gitbook/assets/net_tns_kortsluitstroom.png) ![TN-net, verliesstroom](.gitbook/assets/net_tns_verliesstroom.png) ![TN-net met differentieelschakelaar](.gitbook/assets/net_tns_differentieel.png)
 
 **Waar wordt dit gebruikt?** In België typisch verder in een **privaat net** (een site met een eigen transformatorcabine) na het splitsingspunt van een TN-C-S-aansluiting, dus bij industriële of tertiaire gebouwen, en zeker aangeraden in installaties met veel gevoelige elektronica (bijvoorbeeld datacenters), omdat daar geen stroom over een gedeelde PEN-geleider mag lopen. Een gewone Belgische woning op het openbare net werkt hier niet mee, die is TT (zie verder).
 
@@ -122,8 +119,7 @@ graph LR
 
 De kortsluitstroom en de verliesstroom bij TN-C, in dezelfde stijl:
 
-![TN-C, kortsluitstroom](../Slides/images/net_tnc_kortsluitstroom.png)
-![TN-C, verliesstroom](../Slides/images/net_tnc_verliesstroom.png)
+![TN-C, kortsluitstroom](.gitbook/assets/net_tnc_kortsluitstroom.png) ![TN-C, verliesstroom](.gitbook/assets/net_tnc_verliesstroom.png)
 
 **Waar wordt dit gebruikt?** In het openbare laagspanningsdistributienet zelf (bijvoorbeeld de kabels van Fluvius of ORES tussen de wijktransfo en de straat) en voor straatverlichting. TN-C is **verboden in de eindkringen van een gebouw** na de teller: een breuk in die ene gecombineerde geleider zou daar te gevaarlijk zijn voor personen.
 
@@ -164,7 +160,7 @@ graph LR
 
 Een overzicht dat de volledige keten toont: van de bron met een gecombineerde PEN, over een eerste splitsing (verbruiker 1, bijvoorbeeld openbare verlichting), tot een tweede aftakking met een eigen differentieelschakelaar (verbruiker 3):
 
-![Overzicht: PEN-splitsing doorheen het net](../Slides/images/net_pen_splitsing_overzicht.png)
+![Overzicht: PEN-splitsing doorheen het net](.gitbook/assets/net_pen_splitsing_overzicht.png)
 
 **Waar wordt dit gebruikt?** In België **niet** bij gewone woningen op het openbare laagspanningsnet: die zijn zoals verder beschreven vrijwel altijd TT. TN-C-S (en TN in het algemeen) komt bij ons vooral voor in **private netten**, dus bij grotere sites met een eigen transformatorcabine (industriële of tertiaire gebouwen): de eigenaar van die cabine beheert dan zelf de PEN-splitsing en de aarding, zoals hierboven getekend. In andere landen, zoals Nederland en Duitsland, is TN-C-S wel de standaard tot bij de woning, dus deze verdeling verschilt per land.
 
@@ -202,7 +198,7 @@ Omdat de foutstroom door de grond moet, met een veel hogere impedantie dan een m
 
 Een reëel voorbeeld van hoe dit bij de netbeheerder is opgebouwd: het verdeelnet levert een PEN, maar een woning (verbruiker 2) krijgt daarnaast een eigen "klantaarding", los van de PEN van het net. Merk op dat andere aansluitingen, zoals openbare verlichting (verbruiker 1), wel rechtstreeks op de PEN kunnen blijven aangesloten zonder eigen aarde, net omdat daar geen personen in de buurt van de massa's staan zoals in een woning:
 
-![Aarding verdeelnet met klantaarding](../Slides/images/net_aarding_verdeelnet_klantaarding.png)
+![Aarding verdeelnet met klantaarding](.gitbook/assets/net_aarding_verdeelnet_klantaarding.png)
 
 ### IT
 
@@ -232,8 +228,7 @@ In een IT-net veroorzaakt een eerste aardfout nog geen gevaarlijke situatie en m
 
 De basisopbouw en de (kleine, ongevaarlijke) verliesstroom bij een eerste fout:
 
-![IT-net, basisopbouw](../Slides/images/net_it_basis.png)
-![IT-net, verliesstroom bij eerste fout](../Slides/images/net_it_verliesstroom.png)
+![IT-net, basisopbouw](.gitbook/assets/net_it_basis.png) ![IT-net, verliesstroom bij eerste fout](.gitbook/assets/net_it_verliesstroom.png)
 
 **Waar wordt dit gebruikt?** Overal waar de stroom nooit zomaar mag uitvallen bij één fout: operatiezalen en andere kritische ruimtes in ziekenhuizen, bepaalde industriële processen met continue productie (bijvoorbeeld chemie), en sommige scheeps- of offshore-installaties.
 
@@ -241,11 +236,11 @@ De basisopbouw en de (kleine, ongevaarlijke) verliesstroom bij een eerste fout:
 
 ## Waartegen beveiligen we een installatie?
 
-- **Overbelasting**: te veel stroom gedurende te lange tijd door een leiding, met oververhitting en uiteindelijk brandgevaar tot gevolg.
-- **Kortsluiting**: een zeer hoge stroom gedurende zeer korte tijd, met een risico op mechanische en thermische schade en brand.
-- **Onrechtstreekse aanraking**: een persoon raakt een massa aan die door een fout onder spanning kwam te staan (bijvoorbeeld de metalen behuizing van een defect toestel).
-- **Rechtstreekse aanraking**: een persoon raakt rechtstreeks een geleider aan die normaal onder spanning staat.
-- **Brand door lekstroom**: een kleine, aanhoudende lekstroom (vanaf ongeveer 300 mA, zie AREI) die in een vochtige of stoffige omgeving voor oververhitting en brand kan zorgen.
+* **Overbelasting**: te veel stroom gedurende te lange tijd door een leiding, met oververhitting en uiteindelijk brandgevaar tot gevolg.
+* **Kortsluiting**: een zeer hoge stroom gedurende zeer korte tijd, met een risico op mechanische en thermische schade en brand.
+* **Onrechtstreekse aanraking**: een persoon raakt een massa aan die door een fout onder spanning kwam te staan (bijvoorbeeld de metalen behuizing van een defect toestel).
+* **Rechtstreekse aanraking**: een persoon raakt rechtstreeks een geleider aan die normaal onder spanning staat.
+* **Brand door lekstroom**: een kleine, aanhoudende lekstroom (vanaf ongeveer 300 mA, zie AREI) die in een vochtige of stoffige omgeving voor oververhitting en brand kan zorgen.
 
 ## Hoe beveiligen we: de toestellen
 
@@ -255,25 +250,23 @@ Deze beschermen tegen **overbelasting en kortsluiting**: ze onderbreken de stroo
 
 De uitschakeltijd van een automaat hangt af van hoe groot de stroom is ten opzichte van zijn nominale waarde: hoe groter de overstroom, hoe sneller hij uitschakelt. Dit wordt weergegeven in een uitschakelkarakteristiek:
 
-![Uitschakelkarakteristiek van automatische schakelaars](../Slides/images/automaat_uitschakelkarakteristiek.png)
-![Uitschakeltijd in functie van een veelvoud van de nominale stroom](../Slides/images/automaat_curve_veelvoud.png)
+![Uitschakelkarakteristiek van automatische schakelaars](.gitbook/assets/automaat_uitschakelkarakteristiek.png) ![Uitschakeltijd in functie van een veelvoud van de nominale stroom](.gitbook/assets/automaat_curve_veelvoud.png)
 
 ### Differentieelstroominrichtingen (aardlekschakelaars)
 
 Deze beschermen tegen **onrechtstreekse (en deels rechtstreekse) aanraking**: ze vergelijken de stroom die binnenkomt met de stroom die terug buitengaat, en schakelen uit zodra er een verschil (een lekstroom) optreedt, bijvoorbeeld omdat er stroom via een persoon of via een fout naar de aarde wegvloeit.
 
-- Elke huisinstallatie heeft minstens **één differentieelstroominrichting van maximaal 300 mA** aan het begin van de installatie.
-- Voor stopcontacten en voor toestellen zoals wasmachines, droogkasten en afwasmachines in een badkamer is **bijkomend een differentieelstroominrichting van maximaal 30 mA** verplicht: dit is de grens die in de tabel hierboven het verschil maakt tussen "gevaarlijk" en "veilig, zelfs bij langere blootstelling".
-- Achter **één 30 mA-differentieel** mogen maximaal **8 kringen** hangen. Dit is geen willekeurige grens: elk toestel met elektronica (voedingen, led-drivers,...) heeft bij normaal, foutloos gebruik al een kleine, onvermijdelijke lekstroom via zijn netfilter. Hang je te veel kringen achter dezelfde 30 mA-differentieel, dan kan de **som** van al die kleine, volkomen normale lekstromen de 30 mA-drempel benaderen of overschrijden, met een onverklaarbare uitschakeling tot gevolg zonder dat er ergens een echt defect is.
+* Elke huisinstallatie heeft minstens **één differentieelstroominrichting van maximaal 300 mA** aan het begin van de installatie.
+* Voor stopcontacten en voor toestellen zoals wasmachines, droogkasten en afwasmachines in een badkamer is **bijkomend een differentieelstroominrichting van maximaal 30 mA** verplicht: dit is de grens die in de tabel hierboven het verschil maakt tussen "gevaarlijk" en "veilig, zelfs bij langere blootstelling".
+* Achter **één 30 mA-differentieel** mogen maximaal **8 kringen** hangen. Dit is geen willekeurige grens: elk toestel met elektronica (voedingen, led-drivers,...) heeft bij normaal, foutloos gebruik al een kleine, onvermijdelijke lekstroom via zijn netfilter. Hang je te veel kringen achter dezelfde 30 mA-differentieel, dan kan de **som** van al die kleine, volkomen normale lekstromen de 30 mA-drempel benaderen of overschrijden, met een onverklaarbare uitschakeling tot gevolg zonder dat er ergens een echt defect is.
 
 Hoe een differentieelschakelaar reageert op de twee soorten fouten van hierboven: bij een kortsluiting tussen fasen (geen verschil in binnen- en buitengaande stroom) schakelt hij niet zelf uit (dat is het werk van de automaat/smeltveiligheid), maar bij een verliesstroom (aardfout) merkt hij het verschil tussen in- en uitgaande stroom en schakelt hij wel uit:
 
-![Differentieelschakelaar bij kortsluitstroom](../Slides/images/diff_kortsluitstroom.png)
-![Differentieelschakelaar bij verliesstroom](../Slides/images/diff_verliesstroom.png)
+![Differentieelschakelaar bij kortsluitstroom](.gitbook/assets/diff_kortsluitstroom.png) ![Differentieelschakelaar bij verliesstroom](.gitbook/assets/diff_verliesstroom.png)
 
 Een badkamer is een goed voorbeeld van een ruimte met extra aardingsvoorschriften: naast de hoofdbeschermingsgeleider is er vaak ook een bijkomende equipotentiale verbinding nodig tussen alle geleidende delen (radiator, bad, leidingen,...):
 
-![Equipotentiaalverbinding in een badkamer](../Slides/images/equipotentiaalverbinding_badkamer.png)
+![Equipotentiaalverbinding in een badkamer](.gitbook/assets/equipotentiaalverbinding_badkamer.png)
 
 ## Hoe sluit je dit op elkaar aan?
 
@@ -288,14 +281,14 @@ Dit is exact wat we in het labo gaan herkennen en aansluiten: eerst de hoofdscha
 
 Zo ziet dat er schematisch uit in een modulair verdeelbord (elk blokje een automaat of differentieel, met zijn aansluitpunten boven en onder):
 
-![Automaten in een verdeelbord](../Slides/images/verdeelbord_automaten_icoon.png)
+![Automaten in een verdeelbord](.gitbook/assets/verdeelbord_automaten_icoon.png)
 
 ## Hoeveel plaats neemt dit in de kast in?
 
 Een verdeelbord bestaat uit rijen van een vast aantal **modules** (elk 18 mm breed). Hoeveel modules elk toestel inneemt, hangt af van het aantal polen dat het moet schakelen:
 
-- **Eénpolige automaat** (het gebruikelijke geval voor een gewone stroombaan in een woning, die enkel de fase moet onderbreken): **1 module**.
-- **Tweepolige toestellen** (fase én nul samen onderbroken): **2 modules**. Dit geldt voor de **hoofdschakelaar** en voor een **differentieelstroominrichting** (zowel de algemene 300 mA als een bijkomende 30 mA), want die moeten altijd beide geleiders tegelijk schakelen.
+* **Eénpolige automaat** (het gebruikelijke geval voor een gewone stroombaan in een woning, die enkel de fase moet onderbreken): **1 module**.
+* **Tweepolige toestellen** (fase én nul samen onderbroken): **2 modules**. Dit geldt voor de **hoofdschakelaar** en voor een **differentieelstroominrichting** (zowel de algemene 300 mA als een bijkomende 30 mA), want die moeten altijd beide geleiders tegelijk schakelen.
 
 Dit bepaalt rechtstreeks hoeveel kringen je in een kast van een bepaalde grootte kwijt kan: een rij van 18 modules met een hoofdschakelaar (2), een algemene differentieel (2) en bijvoorbeeld twee bijkomende 30 mA-differentiëlen (2 x 2 = 4) laat nog **10 modules** over voor automaten, dus maximaal 10 afzonderlijke kringen op die rij.
 
