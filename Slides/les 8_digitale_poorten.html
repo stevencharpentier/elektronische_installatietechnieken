@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Elektronische installatietechnieken - Les 8 Digitale poorten</title>
+
+		<meta name="description" content="Elektronische installatietechnieken - Les 8 Digitale poorten en Siemens LOGO!">
+		<meta name="author" content="Steven Charpentier">
+
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/dracula.css" id="theme">
+		<link rel="stylesheet" href="APstyle.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+            <div class="slides">
+    <section data-markdown>
+  <script type="text/template">
+### Digitale poorten
+## En Siemens LOGO!
+
+---
+
+## Waarom digitale logica?
+
+- De wereld is analoog, maar veel technologie is digitaal geworden <!-- .element: class="fragment" -->
+- Oude telefoonlijnen, televisies, radio, modems: allemaal digitaal vervangen <!-- .element: class="fragment" -->
+- Waarom? <!-- .element: class="fragment" -->
+
+---
+
+## Voordelen van digitaal
+
+- **Robuuster**: maar 2 toestanden, kleine storingen kantelen het signaal niet snel <!-- .element: class="fragment" -->
+- **Reproduceerbaar**: een digitaal signaal kan onderweg geregenereerd worden <!-- .element: class="fragment" -->
+- **Programmeerbare circuits**: zelfde hardware, ander gedrag via software <!-- .element: class="fragment" -->
+
+---
+
+## Verdwijnt analoog?
+
+- Analoog is nog steeds beter voor sommige toepassingen (bv. high-power aandrijvingen) <!-- .element: class="fragment" -->
+- Onze fysieke wereld blijft analoog: sensoren en actuatoren schakelen altijd terug <!-- .element: class="fragment" -->
+
+---
+
+## Binaire logica
+
+- Geïntroduceerd door **George Boole** (1815-1864), "The Laws of Thought" (1854) <!-- .element: class="fragment" -->
+- Doel: een eenduidige, exacte manier om redeneringen te beschrijven <!-- .element: class="fragment" -->
+- 2 toestanden: **True/Waar (1)**, **False/Niet waar (0)** <!-- .element: class="fragment" -->
+- 3 basisoperatoren: **En**, **Of**, **Niet** (alles anders is een combinatie hiervan) <!-- .element: class="fragment" -->
+
+---
+
+## Positieve logica
+
+- Tenzij anders vermeld: **altijd positieve logica** <!-- .element: class="fragment" -->
+- 1 = aan / waar (hoogste spanningsniveau) <!-- .element: class="fragment" -->
+- 0 = uit / niet waar (laagste spanningsniveau) <!-- .element: class="fragment" -->
+
+---
+
+## Van logica naar hardware
+
+- Binaire logica vertalen we naar hardware via **digitale poorten** (logic gates) <!-- .element: class="fragment" -->
+- Werking via spanning en stroom (transistoren) <!-- .element: class="fragment" -->
+- Elke poort: beschreven door een **waarheidstabel** én een **logische vergelijking** <!-- .element: class="fragment" -->
+
+---
+
+## 1, 2 of 3 ingangen
+
+- Elke poort heeft een aantal ingangen en 1 uitgang <!-- .element: class="fragment" -->
+- Meer ingangen → meer mogelijke combinaties → meer mogelijke reacties <!-- .element: class="fragment" -->
+
+---
+
+## Poortsymbolen: IEC, ANSI, DIN
+
+- Eenzelfde poort: verschillende symbolen mogelijk, betekenis blijft hetzelfde <!-- .element: class="fragment" -->
+- **IEC**: International Electrotechnical Commission <!-- .element: class="fragment" -->
+- **ANSI**: American National Standards Institute <!-- .element: class="fragment" -->
+- **DIN**: Deutsches Institut für Normung <!-- .element: class="fragment" -->
+- Wij gebruiken consequent **IEC** <!-- .element: class="fragment" -->
+
+---
+
+## Buffer poort
+
+![Buffer poort](images/poort_buffer_iec.svg)
+
+Q = A
+
+---
+
+## Nut van een buffer poort
+
+- **Versterker**: zwak signaal terug op volle sterkte <!-- .element: class="fragment" -->
+- **Repeater**: signaal bruikbaar houden over afstand <!-- .element: class="fragment" -->
+- **Load driving**: een zwaardere belasting aansturen <!-- .element: class="fragment" -->
+- Uitgang op een ander spanningsniveau brengen <!-- .element: class="fragment" -->
+
+---
+
+## NIET (NOT) poort
+
+![NIET poort](images/poort_not_iec.svg)
+
+Inverteert de ingang
+
+---
+
+## NIET: waarheidstabel
+
+| A | Q |
+|---|---|
+| 0 | 1 |
+| 1 | 0 |
+
+Q = Ā
+
+---
+
+## EN (AND) poort
+
+![EN poort](images/poort_and_iec.svg)
+
+Resulteert in wiskundige **vermenigvuldiging**
+
+---
+
+## EN: waarheidstabel
+
+| A | B | Q |
+|---|---|---|
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+Q = A·B
+
+---
+
+## OF (OR) poort
+
+![OF poort](images/poort_or_iec.svg)
+
+Resulteert in wiskundige **optelling**
+
+---
+
+## OF: waarheidstabel
+
+| A | B | Q |
+|---|---|---|
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
+
+Q = A+B
+
+---
+
+## Samengestelde poorten
+
+- NEN (NAND) <!-- .element: class="fragment" -->
+- NOF (NOR) <!-- .element: class="fragment" -->
+- EXOF (XOR) <!-- .element: class="fragment" -->
+- EXNOF (XNOR) <!-- .element: class="fragment" -->
+- Telkens: een basispoort + NIET <!-- .element: class="fragment" -->
+
+---
+
+## NEN (NAND) poort
+
+![NEN poort](images/poort_nand_iec.svg)
+
+Omgekeerde van EN
+
+---
+
+## NEN: waarheidstabel
+
+| A | B | Q |
+|---|---|---|
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+Q = (A·B)̄
+
+---
+
+## NOF (NOR) poort
+
+![NOF poort](images/poort_nor_iec.svg)
+
+Omgekeerde van OF
+
+---
+
+## NOF: waarheidstabel
+
+| A | B | Q |
+|---|---|---|
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
+
+Q = (A+B)̄
+
+---
+
+## EXOF (XOR) poort
+
+![EXOF poort](images/poort_xor_iec.svg)
+
+1 als de ingangen **verschillend** zijn
+
+---
+
+## EXOF: waarheidstabel
+
+| A | B | Q |
+|---|---|---|
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+Q = A ⊕ B
+
+---
+
+## EXNOF (XNOR) poort
+
+![EXNOF poort](images/poort_xnor_iec.svg)
+
+1 als de ingangen **gelijk** zijn
+
+---
+
+## EXNOF: waarheidstabel
+
+| A | B | Q |
+|---|---|---|
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+Q = (A ⊕ B)̄
+
+---
+
+## Oefeningen: vergelijking → schema + tabel
+
+1. X = A·B + Ā·C
+2. X = A·B·C·D + A·D̄
+3. X = A·C + A
+
+Tip bij 3: reken volledig uit en vergelijk de kolom van X met die van A
+
+---
+
+## Oefening: tabel → schema + vergelijking
+
+| A | B | X |
+|---|---|---|
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+---
+
+## Oefening: schema → vergelijking + tabel (1)
+
+![Oefenschema 1](images/poort_oefening_schema1.svg)
+
+---
+
+## Oefening: schema → vergelijking + tabel (2)
+
+![Oefenschema 2](images/poort_oefening_schema2.svg)
+
+---
+
+## Siemens LOGO!
+
+- Compacte, programmeerbare logicamodule voor installatie/automatisering <!-- .element: class="fragment" -->
+- **LOGO!Soft Comfort**: de PC-software, tekenen + offline simuleren <!-- .element: class="fragment" -->
+- Deze les: enkel de simulatiesoftware, geen fysieke module nodig <!-- .element: class="fragment" -->
+
+---
+
+## De werkomgeving
+
+- Nieuw programma in **FBD** (Function Block Diagram): symbolen, zoals in deze cursus <!-- .element: class="fragment" -->
+- (LOGO! kent ook LAD, ladderdiagram, gebruiken we hier niet) <!-- .element: class="fragment" -->
+- Werkgebied: schema opbouwen via **drag-and-drop** <!-- .element: class="fragment" -->
+
+---
+
+## De boomstructuur
+
+- **Co** (Connectors): in- en uitgangen (I1, I2, ... Q1, ...) <!-- .element: class="fragment" -->
+- **GF** (Basic functions): AND, OR, NOT, NAND, NOR, XOR <!-- .element: class="fragment" -->
+- **SF** (Special functions): timers, tellers, ... (latere lessen) <!-- .element: class="fragment" -->
+
+---
+
+## Let op: geen apart EXNOF-blok
+
+- LOGO! heeft **geen** aparte EXNOF (XNOR) in de GF-lijst <!-- .element: class="fragment" -->
+- Oplossing: **EXOF-blok + NIET-blok** erachter <!-- .element: class="fragment" -->
+- Dat is exact wat EXNOF betekent <!-- .element: class="fragment" -->
+
+---
+
+## Schema opbouwen: stappen
+
+1. Sleep I1, I2 (Co) naar het werkgebied
+2. Sleep de gewenste poort (GF) naar het werkgebied
+3. Verbind elke ingang met een pin van de poort
+4. Sleep Q1 (Co) naar het werkgebied, verbind met de uitgang
+5. Start de **offline simulatie**: zet I1/I2 aan/uit, bekijk Q1
+
+---
+
+## Oefeningen in LOGO!Soft Comfort
+
+1. EN-poort, 2 ingangen: test alle 4 combinaties
+2. NEN-poort (AND+NOT, of rechtstreeks NAND)
+3. EXNOF-poort: welke 2 blokken heb je nodig?
+4. Bouw oefenschema 1 na, simuleer en controleer je tabel
+5. Bouw oefenschema 2 na, simuleer en controleer je tabel
+
+  </script>
+</section>
+</div></div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Elektronische installatietechnieken - Installatie-intermezzo</title>
+
+		<meta name="description" content="Elektronische installatietechnieken - Intermezzo: aanvullingen bij beveiliging, schema's en installatieregels">
+		<meta name="author" content="Steven Charpentier">
+
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/dracula.css" id="theme">
+		<link rel="stylesheet" href="APstyle.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+            <div class="slides">
+    <section data-markdown>
+  <script type="text/template">
+### Installatie-intermezzo
+## Enkele aanvullingen voor we verdergaan
+
+---
+
+## Waarom dit tussendoortje?
+
+- Sinds de lessen beveiliging, schema's en installatieregels zijn er een aantal zaken **aangevuld**
+- Voor we overschakelen naar digitale logica (talstelsels en verder), lopen we die kort samen over
+- Dit zit nu ook mee verwerkt in de cursusteksten
+
+---
+
+## 1. Soorten kabel: VOB
+
+- **Enkelvoudige ader**: 1 massieve koperen kern + PVC-mantel
+- Voor elke stroombaan: meerdere VOB-draden samen in dezelfde buis
+- Geen eigen mechanische bescherming: altijd in een **buis**
+
+---
+
+## Voorbekabelde leidingen
+
+- Flexibele buis, **al voorzien van VOB-draden** vanuit de fabriek
+- Geen draad meer trekken door een lege buis, bespaart tijd op de werf
+
+---
+
+## XVB en EXVB
+
+- **XVB**: meeraderig, fase/nul/aarde samen in 1 mantel, eigen mechanische bescherming, voor **binnen**
+- **EXVB**: zelfde opbouw, maar met versterkte, UV-bestendige, waterdichte mantel, voor **ondergronds/buiten**
+
+---
+
+## Eca versus Cca
+
+| | Eca | Cca-s3,d2,a3 |
+|---|---|---|
+| Wanneer | Afzonderlijk, 1 kabel per buis | In bundel of in laag, zonder buis |
+| Brandgedrag | Minimale CPR-eis | Strenger: minder rook, druppels, zuurgraad |
+| Typisch | De meeste woninginstallaties | Kabelgoten zonder buis |
+
+---
+
+## 2. Wat is een stroombaan (stroomkring)?
+
+- **Alles tussen 2 opeenvolgende beveiligingsinrichtingen**
+- "Stroombaan" en "stroomkring" betekenen hetzelfde, "stroombaan" is de AREI-term
+
+---
+
+## Hoofdstroombaan versus eindstroombaan
+
+- **Hoofdstroombaan**: voedt een ander bord of een andere beveiliging (bv. de kring naar een tuinhuisbordje)
+- **Eindstroombaan**: voedt rechtstreeks lichtpunten/stopcontacten (bv. een kring in dat tuinhuisbordje zelf)
+- Belangrijk voor straks: de max-8-kringen-regel slaat specifiek op **eindstroombanen**
+
+---
+
+## 3. Volgorde van de beveiligingen: wat moet, wat is gewoonte
+
+- **Moet, geen keuze**: een differentieel kan enkel beschermen wat **achter** hem hangt
+  - Algemene diff vóór alle stroombanen die hij beschermt
+  - Bijkomende diff vóór de specifieke stroombanen waarvoor hij bedoeld is
+- **Gewoonte, geen harde AREI-volgorde**: de hoofdschakelaar helemaal vooraan
+
+---
+
+## Hoofdschakelaar en algemene diff: mag 1 toestel zijn
+
+- De hoofdschakelaar-functie mag een gewone schakelaar zijn, **maar ook een differentieel of automaat**
+- Bestaat als apart product: de **hoofddifferentieelschakelaar**
+- 1 toestel = hoofdschakelaar + algemene differentieel tegelijk, bespaart plaats
+- Een aparte hoofdschakelaar vóór de diff plaatsen mag natuurlijk ook
+
+---
+
+## 4. Modulebreedte in het verdeelbord
+
+- **1-polige automaat** (gewone eenfasige kring): **1 module**
+- **2-polige toestellen** (hoofdschakelaar, differentieel): **2 modules**
+- Bepaalt rechtstreeks hoeveel kringen je kwijt kan in een bord van een bepaalde grootte
+
+---
+
+## Uitzondering
+
+- Er bestaan **2-polige automaten op 1 module breed**
+- Compacter mechanisme, maar **duurder**
+- Nuttig bij een krappe kast, niet de standaardkeuze
+
+---
+
+## Max 8 kringen achter 1 differentieel van 30 mA
+
+- Geen willekeurige grens: elk toestel met elektronica heeft een kleine, normale lekstroom
+- Te veel kringen samen → de **som** van die kleine lekstromen kan de 30 mA-drempel benaderen
+- Gevolg: een onverklaarbare uitschakeling, zonder dat er iets stuk is
+- Slaat specifiek op **eindstroombanen** (zie hierboven)
+
+---
+
+## 5. Driefasige aansluitingen: het praktische minimum
+
+- Een gewone woning is **eenfasig**: 230 V tussen fase en nul
+- Sommige toepassingen (krachtig toestel, werkplaats) worden **driefasig** aangesloten
+- 400 V tussen twee fasen onderling (al gezien bij de netstelsels)
+
+---
+
+## Driefasig: de 3 praktische kenmerken
+
+- **5 geleiders**: L1, L2, L3, N, PE → kabeltype "5G" (bv. EXVB 5G2,5)
+- **4-polig beveiligingstoestel**: schakelt L1, L2, L3 én N tegelijk
+- **Rode CEE-stekker** ("krachtstroomstekker"): rood = 400 V driefasig, blauw = 230 V eenfasig
+
+---
+
+## Eenfasig of driefasig?
+
+- Hangt af van het **totale vermogen** van het toestel
+- Hoe hoger het vermogen, hoe eerder driefasig de voorkeur krijgt
+- Bij driefasig wordt de stroom verdeeld over 3 geleiders in plaats van 1
+- Het typeplaatje of de handleiding van het toestel geeft de vereiste spanning en stroom
+
+---
+
+## 6. Het eendraadschema: verdieping
+
+- Elke stroombaan = **1 lijn**, ongeacht het werkelijke aantal aders
+- Streepjes op de lijn tonen eventueel **hoeveel** aders er zijn
+- Bewuste abstractie: onbelangrijke details weg, belangrijke details duidelijk
+
+---
+
+## Wat toont een eendraadschema wél?
+
+- Welke stroombanen er zijn, en hun letter (A, B, C,...)
+- Welke beveiliging elke stroombaan heeft
+- Hoeveel aftakpunten elke stroombaan telt
+- Welke kabeldikte gebruikt wordt
+
+---
+
+## Wat toont een eendraadschema niét?
+
+- **Waar** iets fysiek hangt (dat is het situatieplan)
+- **Hoe** de draden door de buizen lopen (leidingschema/bedradingschema)
+- Elke individuele ader apart, met zijn eigen kleur en traject
+
+---
+
+## Hoe lees je het?
+
+- Van **onder naar boven**: onderaan de voeding, dan de stroombanen, bovenaan de aftakpunten
+- Elke stroombaan is een eigen **tak**
+- De **nummering** (bv. "A3") is dezelfde op het eendraadschema, het situatieplan én de materiaallijst
+
+---
+
+## Getalletje naast een symbool
+
+- Een klein getal naast een symbool (bv. een "3" naast een stopcontact) betekent **meerdere identieke aftakpunten** op dat punt
+- Geen getalletje = 1 aftakpunt, een "3" = 3 aftakpunten op die plaats
+- Belangrijk om correct te tellen voor de max-8-aftakpunten-regel
+
+---
+
+## Let op: zelfde plaats, niet verspreid
+
+- Het getalletje staat voor meerdere identieke aftakpunten **op diezelfde fysieke plaats** (bv. een drievoudig stopcontact op 1 plek aan de muur)
+- Zet je 3 losse stopcontacten op 3 verschillende plekken in een kamer, dan zijn dat **3 aparte aftakpunten**
+- Die teken je dan ook als 3 aparte symbolen, elk op hun eigen plaats op het situatieplan
+
+---
+
+## Klaar voor het volgende hoofdstuk
+
+- Deze aanvullingen staan nu mee verwerkt in beveiliging.md, schemas.md en installatieregels.md
+- Volgende stop: **digitale logica**, te beginnen bij talstelsels
+
+  </script>
+</section>
+</div></div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+Maak een huis in Trikker, kies zelf waar je alle meubels zet en waar je stopcontacten en licht voorziet, zorg wel dat je aan alle basisbehoeftes voldoet.
+
+huis 2 is slechts 1 verdieping, dus je voorziet ook een tuinhuisje dat je zelf ontwerpt, maar waar wel een jacuzzi staat.
+
+huis 3 zijn appartementen, dus je voorziet  een verdeelkast voor elke verdieping, het gelijkvloers is een werkplaats waar potentieel 400V toepassingen aangesloten kunnen worden.
+
+alle huizen hebben 3X230V 32A aansluitingen op het net.
+
+Denk goed na over plaatsing van stopcontacten en schakelaars. Zet er beter te veel dan te weinig
+
+Verdeel deze lichten en stopcontacten correct over een eendraadschema.
+
+De manier waarop je dit huis bekabelt moet met klassieke bekabeling.
+
+ 
+
+Zorg dat het getekende schema AREI correct is.
+
+ 
+
+ 
+
+Op te leveren:
+
+¨  Trikker file
+
+¨  Bestellijst voor alle materialen inclusief link naar dit product bij een elektronica webshop naar keuze
+
+¨  Schematische voorstelling van je verdeelkast(en) gebruik makende van drawio en de juiste kabeldiktes
+
+het huis dat je maakt is gebasseerd op je studentennummer
+
+eindigt je studentennummer op 0-2, dan maak je huis nummer 1
+
+eindigt je studentennummer op 3-4, dan maak je huis nummer 2
+
+eindigt je studentennummer op 5-7 dan maak je huis nummer 3
+
+eindigt je studentennummer op 8-9 dan maak je huis nummer 4

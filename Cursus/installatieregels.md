@@ -88,6 +88,24 @@ Dit is een algemene regel die gekoppeld is aan het type beveiliging aan het begi
 
 ## Thema: verdeelbord
 
+### Wat is een stroombaan (of stroomkring)?
+
+Een **stroombaan** (ook wel stroomkring genoemd, "circuit" in het Engels) is, eenvoudig gezegd, **alles wat tussen twee opeenvolgende beveiligingsinrichtingen hangt**. Vanaf een automaat of differentieel tot aan het volgende beveiligingstoestel (of tot aan de aftakpunten zelf), dat is één stroombaan. "Stroomkring" en "stroombaan" betekenen in de praktijk hetzelfde; "stroombaan" is de term die je in het AREI en op het eendraadschema terugvindt.
+
+Het AREI maakt daarbinnen een onderscheid tussen twee soorten **elementaire stroombanen**:
+
+- **Hoofdstroombaan**: een stroombaan die zelf nog **een ander bord of een andere beveiliging voedt**, in plaats van rechtstreeks een lichtpunt of toestel. Het voorbeeld dat je al kent: de stroombaan "C" die vanuit het hoofdbord van de woning naar het tuinhuisbordje vertrekt, is een hoofdstroombaan. Ze voedt immers geen lichtpunt of stopcontact rechtstreeks, maar een volgend bordje met zijn eigen beveiligingen.
+- **Eindstroombaan**: een stroombaan die rechtstreeks **één of meerdere gebruikstoestellen** voedt, zoals de lichtpunten of stopcontacten van een kring. De kringen A (stopcontacten) en B (verlichting) in het tuinhuisbordje zijn elk een eindstroombaan: daar hangen de aftakpunten zelf aan.
+
+Dit onderscheid is meer dan woordenspel: de regel dat je **maximaal 8 kringen achter één 30 mA-differentieel** mag hangen (zie hieronder) slaat specifiek op eindstroombanen, niet op hoofdstroombanen.
+
+### Volgorde van de beveiligingen: wat moet, wat is gewoonte
+
+In een verdeelbord volgen de beveiligingstoestellen een vaste volgorde: hoofdschakelaar, algemene differentieel (≤ 300 mA), automaten per stroombaan, en waar nodig een bijkomende differentieel (≤ 30 mA) vóór specifieke stroombanen (zie beveiliging.md, "Hoe sluit je dit op elkaar aan?"). Niet elk onderdeel van die volgorde weegt even zwaar:
+
+- **Verplicht, en niet anders mogelijk**: een differentieel kan enkel beschermen wat er **achter** (stroomafwaarts van) hem hangt. Hij meet het verschil tussen de stroom die binnenkomt en die er terug buitengaat, en kan dus onmogelijk iets beschermen dat er niet fysiek doorheen gaat. Daarom moet de **algemene differentieel vóór alle stroombanen** staan die hij moet beschermen, en moet een **bijkomende differentieel vóór** de specifieke stroombanen staan waarvoor hij bedoeld is (bijvoorbeeld de badkamer). Dit is geen keuze, maar een rechtstreeks gevolg van hoe een differentieel werkt.
+- **Gangbare praktijk, geen harde AREI-volgorde**: dat de **hoofdschakelaar helemaal vooraan** staat (nog vóór de algemene differentieel) is wijdverspreide, logische praktijk, zodat je met die ene schakelaar ook de differentieel zelf kan uitschakelen voor onderhoud. Zie ook het tuinhuisvoorbeeld in trikker_intro.md, waar één differentieelautomaat bewust de rol van hoofdschakelaar, overstroombeveiliging én aardlekbeveiliging combineert: ook dat toont dat de exacte indeling een ontwerpkeuze is, zolang de onderliggende beschermingslogica (wat beschermt wat, en in welke volgorde) gerespecteerd blijft.
+
 ### Verplicht
 
 - Klasse I (metaal, verbonden met de aarding) of klasse II (isolerend materiaal).
@@ -149,6 +167,21 @@ Dit is een algemene regel die gekoppeld is aan het type beveiliging aan het begi
 - Een **warmtepomp** telt in de praktijk ook als zware verbruiker (vaak ruim boven 2600 W): dezelfde regels (eigen stroombaan, kabeldikte op maat) zijn van toepassing, maar het exacte vermogen en de opstelling bepalen de concrete uitvoering per geval.
 - Voor een **airconditioning** bestaat er discussie in de sector of een aparte automaat altijd nodig is: dit hangt af van het vermogen van het toestel en of het al dan niet de 2600 W-drempel overschrijdt.
 
+## Thema: driefasige aansluitingen (het praktische minimum)
+
+Een gewone woninginstallatie is **eenfasig**: 230 V tussen de fase en de nulgeleider. Sommige toepassingen (een krachtig toestel, een werkplaats,...) hebben genoeg aan die 230 V niet meer, en worden **driefasig** aangesloten. Je hebt dit al onrechtstreeks gezien (zie beveiliging.md, thema netstelsels: 400 V tussen twee fasen onderling) en bij de kabeltypes (thema leidingen: een kabel met 5 geleiders, "5G", is een driefasige kabel: L1, L2, L3, N en PE, tegenover 3 geleiders "3G" voor een eenfasige kring). Dit thema bundelt dat tot een praktisch minimum.
+
+### Verplicht
+
+- Een driefasige kring gebruikt **5 geleiders**: L1, L2, L3, N en PE (kabeltype "5G", bijvoorbeeld EXVB 5G2,5).
+- Het **beveiligingstoestel** (automaat of differentieel) van een driefasige kring is **vierpolig** (4P): het schakelt L1, L2, L3 én N tegelijk, in plaats van de 2 polen (L+N) van een gewone eenfasige kring. Net zoals bij een eenfasig toestel neemt elke extra pool extra modulebreedte in (zie beveiliging.md, thema beveiligingstoestellen): een 4-polig toestel is dus breder dan een 2-polig toestel.
+- Een driefasig **stopcontact** herken je aan de ronde, rode **CEE-stekker** ("krachtstroomstekker"): rood staat voor 400 V driefasig, blauw voor 230 V eenfasig. Dit zijn andere stopcontacten dan de gewone, vertrouwde huishoudelijke stopcontacten.
+
+### Situatiegebonden
+
+- Of een toestel (bijvoorbeeld een krachtige jacuzzi, een machine in een werkplaats) driefasig moet aangesloten worden, hangt af van het **totale vermogen**: hoe hoger het vermogen, hoe eerder driefasig de voorkeur krijgt, omdat de stroom dan verdeeld wordt over 3 geleiders in plaats van over 1. Het typeplaatje of de handleiding van het toestel vermeldt de vereiste spanning en stroom.
+- Twijfel je of een toestel eenfasig of driefasig moet? Reken na: bij eenfasig trek je het volledige vermogen via 230 V, bij driefasig wordt dat verdeeld over 3 fasen. Een toestel van enkele kW's blijft doorgaans probleemloos eenfasig; ruim daarboven wordt driefasig gebruikelijker.
+
 ## Thema: aarding en equipotentiaalverbinding
 
 ### Verplicht
@@ -190,6 +223,32 @@ Minimale doorsnede per gebruik (koperen geleiders):
 - Losse draden in eenzelfde buis moeten tot dezelfde stroombaan behoren.
 - **Massief versus soepel in de muur**: de vaste leidingen in de muren van een huisinstallatie zijn normaal **massieve (eendradige)** geleiders (type VOB, XVB,...). **Soepele (meeraderige) draden** (zoals het VOBst/H07V-K dat je in het verdeelbord gebruikt, zie thema "bedrading in het verdeelbord") zijn voor een vaste installatie enkel toegelaten als ze bijkomend beschermd worden (bijvoorbeeld in een buis) en de uiteinden van kabelschoenen (adereindhulzen) voorzien zijn. Losse, soepele **snoeren** (bedoeld voor verplaatsbare toestellen met een stekker) mogen nooit als vaste installatieleiding dienen.
 - **Brandreactieklasse (Eca/Cca)**: sinds de herziening van het AREI in 2020 moet elke geïsoleerde geleider en kabel een minimale brandreactieklasse volgens de Europese CPR-verordening halen. **Afzonderlijk geïnstalleerde geleiders en kabels** (de meest voorkomende situatie in een gewone woning, één kabel per buis) zijn minimum **Eca**. Worden geleiders of kabels **in bundel of in laag** geïnstalleerd (meerdere samen, zonder buis), dan geldt een strengere minimumklasse: **Cca-s3,d2,a3**. Een hogere klasse dan het minimum kiezen mag altijd.
+
+### Soorten kabel: welke gebruik je waarvoor?
+
+**VOB (H07V-U)**: een **enkelvoudige** ader, één massieve koperen kern met een PVC-mantel errond. Omdat er maar één geleider in zit, moet je voor elke stroombaan meerdere VOB-draden samen in dezelfde buis trekken (bijvoorbeeld een bruine, een blauwe en een geel-groene). VOB is niet bestand tegen mechanische schade op zich: hij moet dus altijd **beschermd** worden, in een buis of leidingkoker.
+
+![VOB-draad](../Slides/images/kabel_vob.jpg)
+
+**Voorbekabelde leidingen**: voor VOB bestaat er een praktische kortere weg: een flexibele installatiebuis die al **voorzien is van VOB-draden**, kant-en-klaar vanuit de fabriek. Je moet dan zelf geen draad meer door een lege buis trekken, wat tijd bespaart op de werf.
+
+![Voorbekabelde buis met VOB-draden](../Slides/images/kabel_voorbekabelde_buis.jpg)
+
+**XVB**: een **meeraderige** kabel: de fase-, nul- en aardgeleider (en eventueel meer) zitten samen in **één gemeenschappelijke buitenmantel**. Daardoor heeft XVB al een eigen mechanische bescherming, en moet hij niet noodzakelijk in een buis zitten om rechtstreeks in of op een muur gebruikt te worden. Bedoeld voor **vaste installaties binnen**, niet voor buiten.
+
+![XVB-kabel](../Slides/images/kabel_xvb.jpg)
+
+**EXVB**: dezelfde opbouw als XVB, maar met een **versterkte, UV-bestendige en waterdichte buitenmantel**. Daardoor mag deze kabel wel **ondergronds of buiten** gebruikt worden (zie ook trikker_intro.md, het tuinhuisvoorbeeld), in tegenstelling tot gewone XVB.
+
+![EXVB-kabel, doorsnede](../Slides/images/kabel_exvb.jpg)
+
+**Eca versus Cca, naast elkaar**:
+
+| | Eca | Cca-s3,d2,a3 |
+|---|---|---|
+| Wanneer verplicht | Afzonderlijk geïnstalleerde kabel (één kabel per buis) | Kabels in bundel of in laag, zonder buis |
+| Brandgedrag | Minimale eis volgens CPR | Strenger: beperkt rook, druppelvorming en zuurgraad van de rookgassen |
+| Typisch gebruik | De meeste gewone woninginstallaties | Kabelgoten, kabelbanen, bundels zonder buis |
 
 ### Situatiegebonden
 

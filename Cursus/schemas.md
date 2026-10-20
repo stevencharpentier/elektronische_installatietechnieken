@@ -81,7 +81,36 @@ Het AREI laat overigens toe dat een stroombaanschema **één- of meerdraads** ge
 
 ### Eendraadschema
 
-De **eendradige, controlerende** vorm van het stroombaanschema, verplicht door het AREI voor elke nieuwe of belangrijk gewijzigde huishoudelijke installatie (zie AREI.md, Deel 3, onderafdeling 3.1.2.1). Elke stroombaan krijgt een hoofdletter, elk lichtpunt en elke contactdoos wordt genummerd in volgorde vanaf de beschermingsinrichting. Dit schema moet, samen met het situatieplan, ondertekend en gedateerd worden door de installateur en bewaard blijven in het dossier van de installatie.
+De **eendradige, controlerende** vorm van het stroombaanschema, verplicht door het AREI voor elke nieuwe of belangrijk gewijzigde huishoudelijke installatie (zie AREI.md, Deel 3, onderafdeling 3.1.2.1). Dit schema moet, samen met het situatieplan, ondertekend en gedateerd worden door de installateur en bewaard blijven in het dossier van de installatie.
+
+#### Waarom "één draad"? Wat teken je, en wat niet?
+
+Een echte kabel bevat meestal 3 of meer aders: een fase, een nul en een aarde, soms meer bij een gemengde kring. Die allemaal apart tekenen zou een schema snel onleesbaar maken, zeker bij een volledige woning met tientallen aftakpunten. Daarom kiest het eendraadschema voor een trucje: **elke stroombaan wordt getekend als één enkele lijn**, ongeacht hoeveel aders er in werkelijkheid in zitten. Kleine schuine streepjes op die lijn tonen hoeveel aders er echt lopen, zonder dat je ze stuk voor stuk moet tekenen.
+
+Dat is de kern van wat "abstraheren" hier betekent: je laat bewust details vallen die er op dit moment niet toe doen, om de details die er wél toe doen beter zichtbaar te maken. Een eendraadschema toont je:
+
+* **Welke stroombanen er zijn**, en welke letter elke stroombaan krijgt (A, B, C,...).
+* **Welke beveiliging** elke stroombaan heeft (een automaat, een smeltveiligheid, een differentieel), en zijn waarde.
+* **Hoeveel aftakpunten** (lichtpunten, contactdozen) op elke stroombaan hangen, elk genummerd in volgorde vanaf de beveiliging.
+* **Welke kabeldikte** gebruikt wordt.
+
+Een eendraadschema toont je daarentegen **niet**:
+
+* **Waar** in het huis een lichtpunt of contactdoos precies hangt. Dat is net de taak van het situatieplan (zie verder): dezelfde nummers, maar dan op een plattegrond.
+* **Hoe** de draden fysiek door de buizen lopen. Dat is de taak van het leidingschema en het bedradingschema.
+* **Elke individuele ader** met zijn eigen kleur en traject. Je ziet enkel dát er bijvoorbeeld 3 aders zijn, niet welke precies waar ligt.
+
+Met andere woorden: het eendraadschema beantwoordt de vraag "**hoe is deze installatie elektrisch opgebouwd en beveiligd?**", niet de vraag "waar hangt alles?" of "welke draad ligt waar?". Die twee andere vragen beantwoorden andere schema's, met dezelfde nummers, zodat je ze makkelijk naast elkaar kan leggen.
+
+#### Hoe lees je een eendraadschema?
+
+Je leest het van **onder naar boven**: onderaan de voeding (meestal de hoofdschakelaar en de algemene differentieel), daarboven de stroombanen die er elk apart vanaf vertakken, en bovenaan, aan het uiteinde van elke stroombaan, de aftakpunten zelf (de lichtpunten en contactdozen). Elke stroombaan is dus een eigen "tak": alles wat op diezelfde tak hangt, wordt door dezelfde automaat (en eventueel dezelfde bijkomende differentieel) beschermd.
+
+De **nummering** is de link tussen alle schema's: stroombaan A, aftakpunt 3 (genoteerd als "A3") is altijd en overal hetzelfde punt, of je nu naar het eendraadschema, het situatieplan of de materiaallijst kijkt. Zodra je die nummering begrijpt, kan je moeiteloos tussen de verschillende schema's van eenzelfde installatie schakelen.
+
+Naast een symbool kan een klein getalletje staan (bv. een "3" naast een stopcontactsymbool). Dat getalletje betekent dat er op dat punt **meerdere identieke aftakpunten** zitten, niet 1: een "3" naast een stopcontact wil zeggen dat daar 3 stopcontacten voorzien zijn, niet 1. Voor het tellen van het aantal aftakpunten op een stroombaan (bijvoorbeeld voor de regel van maximaal 8 aftakpunten per stroombaan) tel je elk van die aftakpunten apart mee.
+
+Belangrijk: dat getalletje staat voor meerdere identieke aftakpunten **op diezelfde fysieke plaats** (bijvoorbeeld een drievoudig stopcontact op één plek aan de muur), niet voor losse stopcontacten verspreid over de ruimte. Zet je in werkelijkheid 3 stopcontacten op 3 verschillende plekken in een kamer, dan zijn dat 3 aparte aftakpunten, die je ook als 3 aparte symbolen op hun eigen plaats op het situatieplan tekent.
 
 Een reëel voorbeeld van een eendraadschema, zoals opgemaakt door een installateur (het officiële AREI-voorbeeld staat in Figuur 3.1):
 

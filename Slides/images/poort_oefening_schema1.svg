@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="500" height="250">
+  <!-- input labels -->
+  <text x="10" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold">A</text>
+  <text x="10" y="75" font-family="Arial, sans-serif" font-size="16" font-weight="bold">B</text>
+  <text x="10" y="135" font-family="Arial, sans-serif" font-size="16" font-weight="bold">C</text>
+  <text x="10" y="175" font-family="Arial, sans-serif" font-size="16" font-weight="bold">D</text>
+
+  <!-- input lines to gate 1 (AND A,B) -->
+  <path d="M30,30 L60,30 L60,50" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M30,70 L60,70 L60,50" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="30" y1="30" x2="40" y2="30" stroke="black" stroke-width="2"/>
+
+  <!-- gate 1: AND(A,B) -->
+  <rect x="60" y="15" width="50" height="70" fill="white" stroke="black" stroke-width="2"/>
+  <text x="85" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold">&amp;</text>
+
+  <!-- input lines to gate 2 (OR C,D) -->
+  <path d="M30,130 L60,130 L60,150" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M30,170 L60,170 L60,150" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- gate 2: OR(C,D) -->
+  <rect x="60" y="115" width="50" height="70" fill="white" stroke="black" stroke-width="2"/>
+  <text x="85" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold">&#8805;1</text>
+
+  <!-- gate1 output to gate3 -->
+  <path d="M110,50 L240,50 L240,80" fill="none" stroke="black" stroke-width="2"/>
+  <!-- gate2 output to gate3 -->
+  <path d="M110,150 L240,150 L240,120" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- gate 3: AND(gate1,gate2) -->
+  <rect x="240" y="65" width="50" height="70" fill="white" stroke="black" stroke-width="2"/>
+  <text x="265" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold">&amp;</text>
+
+  <!-- output -->
+  <line x1="290" y1="100" x2="330" y2="100" stroke="black" stroke-width="2"/>
+  <text x="340" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold">X</text>
+</svg>

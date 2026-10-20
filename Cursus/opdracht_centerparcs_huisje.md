@@ -48,16 +48,16 @@ Dat zijn in totaal 7 ruimtes: gang, wc, woonkamer, utility room, slaapkamer 1, s
 
 - **Verlichting**: minstens 1 lichtpunt voor de woonkamer, en apart minstens 1 lichtpunt boven/bij het kookgedeelte (werkblad). Mag via een serieschakelaar of twee aparte schakelaars, jouw keuze, maar beargumenteer ze.
 - **Stopcontacten woonkamer-gedeelte**: reken de vuistregel van ongeveer 1 stopcontact per 4 m² vloeroppervlak toe op het woonkamer-gedeelte van de ruimte (dus niet het volledige woonkamer+keuken-oppervlak, enkel het zitgedeelte).
-- **Stopcontacten keukengedeelte**: voorzie een compacte kitchenette (geen volledige gezinskeuken): reken op minstens 6 tot 8 stopcontactpunten voor de kookplaat, koelkast, combimagnetron, waterkoker en kleinere toestellen, waarvan een deel **boven het werkblad** als dubbele stopcontacten.
+- **Stopcontacten keukengedeelte**: voorzie een compacte kitchenette (geen volledige gezinskeuken): reken op minstens 6 tot 8 stopcontactpunten, waarvan een deel **boven het werkblad** als dubbele stopcontacten. De **koelkast, combimagnetron, waterkoker** en andere kleine toestellen gaan gewoon op deze gewone stopcontacten, zij hebben **geen eigen kring** nodig.
 - **Kookplaat**: vast opgesteld toestel van minstens 2600 W → verplicht een **eigen, exclusieve stroombaan**, met een kabeldoorsnede op maat van het effectieve vermogen (zie installatieregels, thema zware verbruikers). Hou ook rekening met voldoende marge: hoe verder een toestel van het verdeelbord ligt, hoe meer dat kan meespelen.
 
 ### Utility room
 
 Dit is de technische ruimte van het huisje: de **warmwaterboiler** voor het hele huisje (douche, wastafels, keuken). Geen wasmachine voorzien: in een vakantiehuisje van dit type doen gasten hun was elders (centrale wasserette van het park), dus deze ruimte is enkel voor de boiler en algemene berging.
 
-- **Warmwaterboiler**: eigen, exclusieve stroombaan. Wil je een ander systeem gebruiken, bijvoorbeeld een doorstroomtoestel, motiveer dat en pas de stroombaan aan.
+- **Warmwaterboiler**: kies zelf een vermogen. Vanaf **2600 W** is een eigen, exclusieve stroombaan verplicht (zware verbruiker, zie installatieregels.md). Kies je een kleinere boiler (onder 2600 W, bijvoorbeeld een compact model), dan mag hij gewoon op het algemeen stopcontact van deze ruimte aangesloten worden, geen eigen kring nodig. Dat is een bewuste ontwerpkeuze die je kort motiveert.
 - Minstens 1 lichtpunt, schakelaar aan de handgreepzijde van de deur.
-- Minstens 1 algemeen stopcontact, los van de toestel-stroombanen hierboven, voor onderhoud/gebruik van ander klein materiaal.
+- Minstens 1 algemeen stopcontact.
 
 ### Slaapkamer 1 en slaapkamer 2 (identieke vereisten voor elk)
 
@@ -81,17 +81,16 @@ Je bepaalt zelf het exacte aantal kringen (dat hangt af van je eigen aantal stop
 
 - **Maximaal 8 aftakpunten per stroombaan** (stopcontacten en lichtpunten tellen daarbij allebei mee als aftakpunt op een gemengde kring).
 - **Minstens 2 aparte stroombanen voor verlichting** (mag gecombineerd zijn met stopcontacten op een gemengde kring, zolang de 8-limiet gerespecteerd wordt), zodat een fout niet het hele huisje tegelijk donker zet.
-- Groepeer stopcontacten **per zone**: bijvoorbeeld slaapkamer 1 + slaapkamer 2 samen op een kring, gang + wc + badkamer-stopcontacten op een andere kring, in plaats van alles op 1 kring te proppen. Reken zelf na of dit onder de 8-limiet blijft; splits verder op als dat nodig is.
-- Kookplaat en boiler krijgen elk hun **eigen, exclusieve stroombaan** (zie hierboven), nooit gecombineerd met andere stopcontacten of lichtpunten.
+- Groepeer stopcontacten **zo veel mogelijk samen**, zolang je onder de 8-limiet blijft: bijvoorbeeld slaapkamer 1 + slaapkamer 2 samen op 1 kring, of gang + wc + badkamer-stopcontacten + een deel van de woonkamer samen op een andere kring. Hoe meer je combineert (binnen de 8-limiet), hoe minder kringen je nodig hebt. Reken dit zelf na.
+- Elk toestel van minstens 2600 W (zie hierboven) krijgt een **eigen, exclusieve stroombaan**, nooit gecombineerd met andere stopcontacten of lichtpunten. Hoeveel van die exclusieve stroombanen je uiteindelijk hebt, hangt dus af van je eigen toestelkeuzes.
 - Minimale kabeldoorsnedes: 1,5 mm² voor een zuivere verlichtingskring, 2,5 mm² voor stopcontacten (ook gemengde kringen).
 
 ## Verdeelbord
 
-- Hoofdschakelaar, gevolgd door een **algemene differentieelstroominrichting van maximaal 300 mA**.
+- Een **hoofdschakelaar-functie** aan het begin van de installatie, en een **algemene differentieelstroominrichting** (maximaal 300 mA). Dit mogen 2 aparte toestellen zijn, of 1 gecombineerd toestel (een hoofddifferentieelschakelaar), jouw keuze (zie beveiliging.md).
 - Een **automaat per stroombaan**, elk met een kabeldoorsnede en beveiligingswaarde op maat van tabel 4.11 van het AREI.
-- De **bijkomende 30 mA-differentieel** (badkamer) duidelijk herkenbaar geplaatst na de algemene differentieel.
+- De badkamer heeft sowieso een **30 mA-beveiliging** nodig. Denk zelf na hoe je dat oplost, en hoeveel differentiëlen je daarvoor **echt** nodig hebt: je mag altijd strenger gaan dan de minimumeis.
 - Elke stroombaan duidelijk gemerkt met een letter, consistent tussen eendraadschema, situatieplan en verdeelbord.
-- Denk na over **hoeveel differentiëlen** je effectief nodig hebt, en wat voor- en nadelen zijn van meer of minder. Center Parcs werkt budgetvriendelijk: weeg dat mee in je keuze, en verantwoord ze.
 
 ### Beperkte plaats in de kast
 

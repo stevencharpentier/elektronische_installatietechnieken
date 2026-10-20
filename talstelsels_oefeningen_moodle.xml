@@ -1,0 +1,1449 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<question type="category">
+  <category>
+    <text>$course$/top/Talstelsels</text>
+  </category>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-1 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 100100 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>36</text>
+    <feedback format="html"><text><![CDATA[100100(2) = 1.2^5 + 0.2^4 + 0.2^3 + 1.2^2 + 0.2^1 + 0.2^0 = 32 + 4 = 36(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-2 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 1000 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>8</text>
+    <feedback format="html"><text><![CDATA[1000(2) = 1.2^3 + 0.2^2 + 0.2^1 + 0.2^0 = 8 = 8(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-3 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 1001 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>9</text>
+    <feedback format="html"><text><![CDATA[1001(2) = 1.2^3 + 0.2^2 + 0.2^1 + 1.2^0 = 8 + 1 = 9(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-4 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 10000011 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>131</text>
+    <feedback format="html"><text><![CDATA[10000011(2) = 1.2^7 + 0.2^6 + 0.2^5 + 0.2^4 + 0.2^3 + 0.2^2 + 1.2^1 + 1.2^0 = 128 + 2 + 1 = 131(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-5 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 11000 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>24</text>
+    <feedback format="html"><text><![CDATA[11000(2) = 1.2^4 + 1.2^3 + 0.2^2 + 0.2^1 + 0.2^0 = 16 + 8 = 24(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-6 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 1000 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>8</text>
+    <feedback format="html"><text><![CDATA[1000(2) = 1.2^3 + 0.2^2 + 0.2^1 + 0.2^0 = 8 = 8(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-7 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 101001 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>41</text>
+    <feedback format="html"><text><![CDATA[101001(2) = 1.2^5 + 0.2^4 + 1.2^3 + 0.2^2 + 0.2^1 + 1.2^0 = 32 + 8 + 1 = 41(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-8 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 10001 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>17</text>
+    <feedback format="html"><text><![CDATA[10001(2) = 1.2^4 + 0.2^3 + 0.2^2 + 0.2^1 + 1.2^0 = 16 + 1 = 17(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-9 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 101 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>5</text>
+    <feedback format="html"><text><![CDATA[101(2) = 1.2^2 + 0.2^1 + 1.2^0 = 4 + 1 = 5(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-10 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 10010100 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>148</text>
+    <feedback format="html"><text><![CDATA[10010100(2) = 1.2^7 + 0.2^6 + 0.2^5 + 1.2^4 + 0.2^3 + 1.2^2 + 0.2^1 + 0.2^0 = 128 + 16 + 4 = 148(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-11 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 1010 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>10</text>
+    <feedback format="html"><text><![CDATA[1010(2) = 1.2^3 + 0.2^2 + 1.2^1 + 0.2^0 = 8 + 2 = 10(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-12 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 1011 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>11</text>
+    <feedback format="html"><text><![CDATA[1011(2) = 1.2^3 + 0.2^2 + 1.2^1 + 1.2^0 = 8 + 2 + 1 = 11(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-13 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 10001010 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>138</text>
+    <feedback format="html"><text><![CDATA[10001010(2) = 1.2^7 + 0.2^6 + 0.2^5 + 0.2^4 + 1.2^3 + 0.2^2 + 1.2^1 + 0.2^0 = 128 + 8 + 2 = 138(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-14 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 1011 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>11</text>
+    <feedback format="html"><text><![CDATA[1011(2) = 1.2^3 + 0.2^2 + 1.2^1 + 1.2^0 = 8 + 2 + 1 = 11(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-15 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 1110 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>14</text>
+    <feedback format="html"><text><![CDATA[1110(2) = 1.2^3 + 1.2^2 + 1.2^1 + 0.2^0 = 8 + 4 + 2 = 14(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-16 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 10000100 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>132</text>
+    <feedback format="html"><text><![CDATA[10000100(2) = 1.2^7 + 0.2^6 + 0.2^5 + 0.2^4 + 0.2^3 + 1.2^2 + 0.2^1 + 0.2^0 = 128 + 4 = 132(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-17 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 10 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>2</text>
+    <feedback format="html"><text><![CDATA[10(2) = 1.2^1 + 0.2^0 = 2 = 2(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-18 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 10011 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>19</text>
+    <feedback format="html"><text><![CDATA[10011(2) = 1.2^4 + 0.2^3 + 0.2^2 + 1.2^1 + 1.2^0 = 16 + 2 + 1 = 19(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-19 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 10 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>2</text>
+    <feedback format="html"><text><![CDATA[10(2) = 1.2^1 + 0.2^0 = 2 = 2(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB01-20 Binair naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 1100111 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>103</text>
+    <feedback format="html"><text><![CDATA[1100111(2) = 1.2^6 + 1.2^5 + 0.2^4 + 0.2^3 + 1.2^2 + 1.2^1 + 1.2^0 = 64 + 32 + 4 + 2 + 1 = 103(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-1 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: EEE (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>3822</text>
+    <feedback format="html"><text><![CDATA[EEE(16): E.16^2 + E.16^1 + E.16^0 -> 14 x 256=3584, 14 x 16=224, 14 x 1=14 -> totaal = 3822(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-2 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 69 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>105</text>
+    <feedback format="html"><text><![CDATA[69(16): 6.16^1 + 9.16^0 -> 6 x 16=96, 9 x 1=9 -> totaal = 105(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-3 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 1AA (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>426</text>
+    <feedback format="html"><text><![CDATA[1AA(16): 1.16^2 + A.16^1 + A.16^0 -> 1 x 256=256, 10 x 16=160, 10 x 1=10 -> totaal = 426(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-4 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 31 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>49</text>
+    <feedback format="html"><text><![CDATA[31(16): 3.16^1 + 1.16^0 -> 3 x 16=48, 1 x 1=1 -> totaal = 49(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-5 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: CD (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>205</text>
+    <feedback format="html"><text><![CDATA[CD(16): C.16^1 + D.16^0 -> 12 x 16=192, 13 x 1=13 -> totaal = 205(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-6 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 702 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1794</text>
+    <feedback format="html"><text><![CDATA[702(16): 7.16^2 + 0.16^1 + 2.16^0 -> 7 x 256=1792, 0 x 16=0, 2 x 1=2 -> totaal = 1794(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-7 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: E8 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>232</text>
+    <feedback format="html"><text><![CDATA[E8(16): E.16^1 + 8.16^0 -> 14 x 16=224, 8 x 1=8 -> totaal = 232(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-8 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: C06 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>3078</text>
+    <feedback format="html"><text><![CDATA[C06(16): C.16^2 + 0.16^1 + 6.16^0 -> 12 x 256=3072, 0 x 16=0, 6 x 1=6 -> totaal = 3078(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-9 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: E2 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>226</text>
+    <feedback format="html"><text><![CDATA[E2(16): E.16^1 + 2.16^0 -> 14 x 16=224, 2 x 1=2 -> totaal = 226(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-10 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 5FD (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1533</text>
+    <feedback format="html"><text><![CDATA[5FD(16): 5.16^2 + F.16^1 + D.16^0 -> 5 x 256=1280, 15 x 16=240, 13 x 1=13 -> totaal = 1533(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-11 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 36F (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>879</text>
+    <feedback format="html"><text><![CDATA[36F(16): 3.16^2 + 6.16^1 + F.16^0 -> 3 x 256=768, 6 x 16=96, 15 x 1=15 -> totaal = 879(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-12 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 7C (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>124</text>
+    <feedback format="html"><text><![CDATA[7C(16): 7.16^1 + C.16^0 -> 7 x 16=112, 12 x 1=12 -> totaal = 124(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-13 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: C9 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>201</text>
+    <feedback format="html"><text><![CDATA[C9(16): C.16^1 + 9.16^0 -> 12 x 16=192, 9 x 1=9 -> totaal = 201(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-14 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 30 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>48</text>
+    <feedback format="html"><text><![CDATA[30(16): 3.16^1 + 0.16^0 -> 3 x 16=48, 0 x 1=0 -> totaal = 48(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-15 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 9D (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>157</text>
+    <feedback format="html"><text><![CDATA[9D(16): 9.16^1 + D.16^0 -> 9 x 16=144, 13 x 1=13 -> totaal = 157(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-16 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: FCD (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>4045</text>
+    <feedback format="html"><text><![CDATA[FCD(16): F.16^2 + C.16^1 + D.16^0 -> 15 x 256=3840, 12 x 16=192, 13 x 1=13 -> totaal = 4045(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-17 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: B13 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>2835</text>
+    <feedback format="html"><text><![CDATA[B13(16): B.16^2 + 1.16^1 + 3.16^0 -> 11 x 256=2816, 1 x 16=16, 3 x 1=3 -> totaal = 2835(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-18 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 557 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1367</text>
+    <feedback format="html"><text><![CDATA[557(16): 5.16^2 + 5.16^1 + 7.16^0 -> 5 x 256=1280, 5 x 16=80, 7 x 1=7 -> totaal = 1367(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-19 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: FD7 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>4055</text>
+    <feedback format="html"><text><![CDATA[FD7(16): F.16^2 + D.16^1 + 7.16^0 -> 15 x 256=3840, 13 x 16=208, 7 x 1=7 -> totaal = 4055(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB03-20 Hex naar Decimaal</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar decimaal: 15C (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>348</text>
+    <feedback format="html"><text><![CDATA[15C(16): 1.16^2 + 5.16^1 + C.16^0 -> 1 x 256=256, 5 x 16=80, 12 x 1=12 -> totaal = 348(10)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-1 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 179 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>10110011</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 179 / 2 = 89 rest 1; 89 / 2 = 44 rest 1; 44 / 2 = 22 rest 0; 22 / 2 = 11 rest 0; 11 / 2 = 5 rest 1; 5 / 2 = 2 rest 1; 2 / 2 = 1 rest 0; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 179(10) = 10110011(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-2 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 465 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>111010001</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 465 / 2 = 232 rest 1; 232 / 2 = 116 rest 0; 116 / 2 = 58 rest 0; 58 / 2 = 29 rest 0; 29 / 2 = 14 rest 1; 14 / 2 = 7 rest 0; 7 / 2 = 3 rest 1; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 465(10) = 111010001(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-3 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 23 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>10111</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 23 / 2 = 11 rest 1; 11 / 2 = 5 rest 1; 5 / 2 = 2 rest 1; 2 / 2 = 1 rest 0; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 23(10) = 10111(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-4 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 117 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1110101</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 117 / 2 = 58 rest 1; 58 / 2 = 29 rest 0; 29 / 2 = 14 rest 1; 14 / 2 = 7 rest 0; 7 / 2 = 3 rest 1; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 117(10) = 1110101(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-5 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 140 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>10001100</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 140 / 2 = 70 rest 0; 70 / 2 = 35 rest 0; 35 / 2 = 17 rest 1; 17 / 2 = 8 rest 1; 8 / 2 = 4 rest 0; 4 / 2 = 2 rest 0; 2 / 2 = 1 rest 0; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 140(10) = 10001100(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-6 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 28 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>11100</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 28 / 2 = 14 rest 0; 14 / 2 = 7 rest 0; 7 / 2 = 3 rest 1; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 28(10) = 11100(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-7 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 115 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1110011</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 115 / 2 = 57 rest 1; 57 / 2 = 28 rest 1; 28 / 2 = 14 rest 0; 14 / 2 = 7 rest 0; 7 / 2 = 3 rest 1; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 115(10) = 1110011(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-8 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 300 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>100101100</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 300 / 2 = 150 rest 0; 150 / 2 = 75 rest 0; 75 / 2 = 37 rest 1; 37 / 2 = 18 rest 1; 18 / 2 = 9 rest 0; 9 / 2 = 4 rest 1; 4 / 2 = 2 rest 0; 2 / 2 = 1 rest 0; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 300(10) = 100101100(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-9 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 216 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>11011000</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 216 / 2 = 108 rest 0; 108 / 2 = 54 rest 0; 54 / 2 = 27 rest 0; 27 / 2 = 13 rest 1; 13 / 2 = 6 rest 1; 6 / 2 = 3 rest 0; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 216(10) = 11011000(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-10 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 55 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>110111</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 55 / 2 = 27 rest 1; 27 / 2 = 13 rest 1; 13 / 2 = 6 rest 1; 6 / 2 = 3 rest 0; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 55(10) = 110111(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-11 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 496 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>111110000</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 496 / 2 = 248 rest 0; 248 / 2 = 124 rest 0; 124 / 2 = 62 rest 0; 62 / 2 = 31 rest 0; 31 / 2 = 15 rest 1; 15 / 2 = 7 rest 1; 7 / 2 = 3 rest 1; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 496(10) = 111110000(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-12 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 69 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1000101</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 69 / 2 = 34 rest 1; 34 / 2 = 17 rest 0; 17 / 2 = 8 rest 1; 8 / 2 = 4 rest 0; 4 / 2 = 2 rest 0; 2 / 2 = 1 rest 0; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 69(10) = 1000101(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-13 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 61 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>111101</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 61 / 2 = 30 rest 1; 30 / 2 = 15 rest 0; 15 / 2 = 7 rest 1; 7 / 2 = 3 rest 1; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 61(10) = 111101(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-14 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 167 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>10100111</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 167 / 2 = 83 rest 1; 83 / 2 = 41 rest 1; 41 / 2 = 20 rest 1; 20 / 2 = 10 rest 0; 10 / 2 = 5 rest 0; 5 / 2 = 2 rest 1; 2 / 2 = 1 rest 0; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 167(10) = 10100111(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-15 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 168 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>10101000</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 168 / 2 = 84 rest 0; 84 / 2 = 42 rest 0; 42 / 2 = 21 rest 0; 21 / 2 = 10 rest 1; 10 / 2 = 5 rest 0; 5 / 2 = 2 rest 1; 2 / 2 = 1 rest 0; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 168(10) = 10101000(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-16 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 378 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>101111010</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 378 / 2 = 189 rest 0; 189 / 2 = 94 rest 1; 94 / 2 = 47 rest 0; 47 / 2 = 23 rest 1; 23 / 2 = 11 rest 1; 11 / 2 = 5 rest 1; 5 / 2 = 2 rest 1; 2 / 2 = 1 rest 0; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 378(10) = 101111010(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-17 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 414 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>110011110</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 414 / 2 = 207 rest 0; 207 / 2 = 103 rest 1; 103 / 2 = 51 rest 1; 51 / 2 = 25 rest 1; 25 / 2 = 12 rest 1; 12 / 2 = 6 rest 0; 6 / 2 = 3 rest 0; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 414(10) = 110011110(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-18 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 14 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1110</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 14 / 2 = 7 rest 0; 7 / 2 = 3 rest 1; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 14(10) = 1110(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-19 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 30 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>11110</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 30 / 2 = 15 rest 0; 15 / 2 = 7 rest 1; 7 / 2 = 3 rest 1; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 30(10) = 11110(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB04-20 Decimaal naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 421 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>110100101</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 2: 421 / 2 = 210 rest 1; 210 / 2 = 105 rest 0; 105 / 2 = 52 rest 1; 52 / 2 = 26 rest 0; 26 / 2 = 13 rest 0; 13 / 2 = 6 rest 1; 6 / 2 = 3 rest 0; 3 / 2 = 1 rest 1; 1 / 2 = 0 rest 1. Resten van onder naar boven gelezen: 421(10) = 110100101(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-1 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 2244 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>8C4</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 2244 / 16 = 140 rest 4; 140 / 16 = 8 rest 12 = C; 8 / 16 = 0 rest 8. Resten van onder naar boven gelezen: 2244(10) = 8C4(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-2 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 2229 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>8B5</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 2229 / 16 = 139 rest 5; 139 / 16 = 8 rest 11 = B; 8 / 16 = 0 rest 8. Resten van onder naar boven gelezen: 2229(10) = 8B5(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-3 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 2852 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>B24</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 2852 / 16 = 178 rest 4; 178 / 16 = 11 rest 2; 11 / 16 = 0 rest 11 = B. Resten van onder naar boven gelezen: 2852(10) = B24(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-4 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 496 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1F0</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 496 / 16 = 31 rest 0; 31 / 16 = 1 rest 15 = F; 1 / 16 = 0 rest 1. Resten van onder naar boven gelezen: 496(10) = 1F0(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-5 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 2396 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>95C</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 2396 / 16 = 149 rest 12 = C; 149 / 16 = 9 rest 5; 9 / 16 = 0 rest 9. Resten van onder naar boven gelezen: 2396(10) = 95C(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-6 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 1571 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>623</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 1571 / 16 = 98 rest 3; 98 / 16 = 6 rest 2; 6 / 16 = 0 rest 6. Resten van onder naar boven gelezen: 1571(10) = 623(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-7 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 3524 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>DC4</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 3524 / 16 = 220 rest 4; 220 / 16 = 13 rest 12 = C; 13 / 16 = 0 rest 13 = D. Resten van onder naar boven gelezen: 3524(10) = DC4(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-8 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 1785 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>6F9</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 1785 / 16 = 111 rest 9; 111 / 16 = 6 rest 15 = F; 6 / 16 = 0 rest 6. Resten van onder naar boven gelezen: 1785(10) = 6F9(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-9 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 1399 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>577</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 1399 / 16 = 87 rest 7; 87 / 16 = 5 rest 7; 5 / 16 = 0 rest 5. Resten van onder naar boven gelezen: 1399(10) = 577(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-10 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 3855 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>F0F</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 3855 / 16 = 240 rest 15 = F; 240 / 16 = 15 rest 0; 15 / 16 = 0 rest 15 = F. Resten van onder naar boven gelezen: 3855(10) = F0F(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-11 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 1859 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>743</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 1859 / 16 = 116 rest 3; 116 / 16 = 7 rest 4; 7 / 16 = 0 rest 7. Resten van onder naar boven gelezen: 1859(10) = 743(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-12 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 2176 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>880</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 2176 / 16 = 136 rest 0; 136 / 16 = 8 rest 8; 8 / 16 = 0 rest 8. Resten van onder naar boven gelezen: 2176(10) = 880(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-13 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 3791 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>ECF</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 3791 / 16 = 236 rest 15 = F; 236 / 16 = 14 rest 12 = C; 14 / 16 = 0 rest 14 = E. Resten van onder naar boven gelezen: 3791(10) = ECF(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-14 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 3243 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>CAB</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 3243 / 16 = 202 rest 11 = B; 202 / 16 = 12 rest 10 = A; 12 / 16 = 0 rest 12 = C. Resten van onder naar boven gelezen: 3243(10) = CAB(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-15 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 522 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>20A</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 522 / 16 = 32 rest 10 = A; 32 / 16 = 2 rest 0; 2 / 16 = 0 rest 2. Resten van onder naar boven gelezen: 522(10) = 20A(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-16 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 438 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1B6</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 438 / 16 = 27 rest 6; 27 / 16 = 1 rest 11 = B; 1 / 16 = 0 rest 1. Resten van onder naar boven gelezen: 438(10) = 1B6(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-17 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 21 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>15</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 21 / 16 = 1 rest 5; 1 / 16 = 0 rest 1. Resten van onder naar boven gelezen: 21(10) = 15(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-18 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 735 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>2DF</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 735 / 16 = 45 rest 15 = F; 45 / 16 = 2 rest 13 = D; 2 / 16 = 0 rest 2. Resten van onder naar boven gelezen: 735(10) = 2DF(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-19 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 3761 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>EB1</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 3761 / 16 = 235 rest 1; 235 / 16 = 14 rest 11 = B; 14 / 16 = 0 rest 14 = E. Resten van onder naar boven gelezen: 3761(10) = EB1(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB06-20 Decimaal naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 2883 (10) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>B43</text>
+    <feedback format="html"><text><![CDATA[Herhaaldelijk delen door 16: 2883 / 16 = 180 rest 3; 180 / 16 = 11 rest 4; 11 / 16 = 0 rest 11 = B. Resten van onder naar boven gelezen: 2883(10) = B43(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-1 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 101101010 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>16A</text>
+    <feedback format="html"><text><![CDATA[101101010(2) aanvullen tot groepjes van 4: 000101101010 -> groepen: 0001 0110 1010 -> elk groepje omzetten -> 16A(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-2 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 11001 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>19</text>
+    <feedback format="html"><text><![CDATA[11001(2) aanvullen tot groepjes van 4: 00011001 -> groepen: 0001 1001 -> elk groepje omzetten -> 19(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-3 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 1000011 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>43</text>
+    <feedback format="html"><text><![CDATA[1000011(2) aanvullen tot groepjes van 4: 01000011 -> groepen: 0100 0011 -> elk groepje omzetten -> 43(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-4 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 11001110 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>CE</text>
+    <feedback format="html"><text><![CDATA[11001110(2) aanvullen tot groepjes van 4: 11001110 -> groepen: 1100 1110 -> elk groepje omzetten -> CE(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-5 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 110010011 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>193</text>
+    <feedback format="html"><text><![CDATA[110010011(2) aanvullen tot groepjes van 4: 000110010011 -> groepen: 0001 1001 0011 -> elk groepje omzetten -> 193(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-6 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 1100110 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>66</text>
+    <feedback format="html"><text><![CDATA[1100110(2) aanvullen tot groepjes van 4: 01100110 -> groepen: 0110 0110 -> elk groepje omzetten -> 66(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-7 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 11010111 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>D7</text>
+    <feedback format="html"><text><![CDATA[11010111(2) aanvullen tot groepjes van 4: 11010111 -> groepen: 1101 0111 -> elk groepje omzetten -> D7(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-8 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 111 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>7</text>
+    <feedback format="html"><text><![CDATA[111(2) aanvullen tot groepjes van 4: 0111 -> groepen: 0111 -> elk groepje omzetten -> 7(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-9 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 10110 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>16</text>
+    <feedback format="html"><text><![CDATA[10110(2) aanvullen tot groepjes van 4: 00010110 -> groepen: 0001 0110 -> elk groepje omzetten -> 16(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-10 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 100011 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>23</text>
+    <feedback format="html"><text><![CDATA[100011(2) aanvullen tot groepjes van 4: 00100011 -> groepen: 0010 0011 -> elk groepje omzetten -> 23(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-11 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 11110000101 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>785</text>
+    <feedback format="html"><text><![CDATA[11110000101(2) aanvullen tot groepjes van 4: 011110000101 -> groepen: 0111 1000 0101 -> elk groepje omzetten -> 785(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-12 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 111010 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>3A</text>
+    <feedback format="html"><text><![CDATA[111010(2) aanvullen tot groepjes van 4: 00111010 -> groepen: 0011 1010 -> elk groepje omzetten -> 3A(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-13 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 10101001101 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>54D</text>
+    <feedback format="html"><text><![CDATA[10101001101(2) aanvullen tot groepjes van 4: 010101001101 -> groepen: 0101 0100 1101 -> elk groepje omzetten -> 54D(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-14 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 10110110001 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>5B1</text>
+    <feedback format="html"><text><![CDATA[10110110001(2) aanvullen tot groepjes van 4: 010110110001 -> groepen: 0101 1011 0001 -> elk groepje omzetten -> 5B1(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-15 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 1001111110 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>27E</text>
+    <feedback format="html"><text><![CDATA[1001111110(2) aanvullen tot groepjes van 4: 001001111110 -> groepen: 0010 0111 1110 -> elk groepje omzetten -> 27E(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-16 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 111100 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>3C</text>
+    <feedback format="html"><text><![CDATA[111100(2) aanvullen tot groepjes van 4: 00111100 -> groepen: 0011 1100 -> elk groepje omzetten -> 3C(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-17 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 100111010 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>13A</text>
+    <feedback format="html"><text><![CDATA[100111010(2) aanvullen tot groepjes van 4: 000100111010 -> groepen: 0001 0011 1010 -> elk groepje omzetten -> 13A(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-18 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 11110100 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>F4</text>
+    <feedback format="html"><text><![CDATA[11110100(2) aanvullen tot groepjes van 4: 11110100 -> groepen: 1111 0100 -> elk groepje omzetten -> F4(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-19 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 1111 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>F</text>
+    <feedback format="html"><text><![CDATA[1111(2) aanvullen tot groepjes van 4: 1111 -> groepen: 1111 -> elk groepje omzetten -> F(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB08-20 Binair naar Hex</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar hexadecimaal: 10100000000 (2) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>500</text>
+    <feedback format="html"><text><![CDATA[10100000000(2) aanvullen tot groepjes van 4: 010100000000 -> groepen: 0101 0000 0000 -> elk groepje omzetten -> 500(16)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-1 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 2A0 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1010100000</text>
+    <feedback format="html"><text><![CDATA[2A0(16): elk cijfer apart naar 4 bits -> 0010 1010 0000 -> samen: 001010100000 -> linkse nullen weglaten -> 1010100000(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-2 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 3B3 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1110110011</text>
+    <feedback format="html"><text><![CDATA[3B3(16): elk cijfer apart naar 4 bits -> 0011 1011 0011 -> samen: 001110110011 -> linkse nullen weglaten -> 1110110011(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-3 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 3FB (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1111111011</text>
+    <feedback format="html"><text><![CDATA[3FB(16): elk cijfer apart naar 4 bits -> 0011 1111 1011 -> samen: 001111111011 -> linkse nullen weglaten -> 1111111011(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-4 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): AC8 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>101011001000</text>
+    <feedback format="html"><text><![CDATA[AC8(16): elk cijfer apart naar 4 bits -> 1010 1100 1000 -> samen: 101011001000 -> linkse nullen weglaten -> 101011001000(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-5 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 657 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>11001010111</text>
+    <feedback format="html"><text><![CDATA[657(16): elk cijfer apart naar 4 bits -> 0110 0101 0111 -> samen: 011001010111 -> linkse nullen weglaten -> 11001010111(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-6 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 751 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>11101010001</text>
+    <feedback format="html"><text><![CDATA[751(16): elk cijfer apart naar 4 bits -> 0111 0101 0001 -> samen: 011101010001 -> linkse nullen weglaten -> 11101010001(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-7 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 3E (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>111110</text>
+    <feedback format="html"><text><![CDATA[3E(16): elk cijfer apart naar 4 bits -> 0011 1110 -> samen: 00111110 -> linkse nullen weglaten -> 111110(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-8 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 950 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>100101010000</text>
+    <feedback format="html"><text><![CDATA[950(16): elk cijfer apart naar 4 bits -> 1001 0101 0000 -> samen: 100101010000 -> linkse nullen weglaten -> 100101010000(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-9 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): B14 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>101100010100</text>
+    <feedback format="html"><text><![CDATA[B14(16): elk cijfer apart naar 4 bits -> 1011 0001 0100 -> samen: 101100010100 -> linkse nullen weglaten -> 101100010100(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-10 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): AC (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>10101100</text>
+    <feedback format="html"><text><![CDATA[AC(16): elk cijfer apart naar 4 bits -> 1010 1100 -> samen: 10101100 -> linkse nullen weglaten -> 10101100(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-11 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): B72 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>101101110010</text>
+    <feedback format="html"><text><![CDATA[B72(16): elk cijfer apart naar 4 bits -> 1011 0111 0010 -> samen: 101101110010 -> linkse nullen weglaten -> 101101110010(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-12 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 5A (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1011010</text>
+    <feedback format="html"><text><![CDATA[5A(16): elk cijfer apart naar 4 bits -> 0101 1010 -> samen: 01011010 -> linkse nullen weglaten -> 1011010(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-13 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): D31 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>110100110001</text>
+    <feedback format="html"><text><![CDATA[D31(16): elk cijfer apart naar 4 bits -> 1101 0011 0001 -> samen: 110100110001 -> linkse nullen weglaten -> 110100110001(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-14 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 5C1 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>10111000001</text>
+    <feedback format="html"><text><![CDATA[5C1(16): elk cijfer apart naar 4 bits -> 0101 1100 0001 -> samen: 010111000001 -> linkse nullen weglaten -> 10111000001(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-15 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): C45 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>110001000101</text>
+    <feedback format="html"><text><![CDATA[C45(16): elk cijfer apart naar 4 bits -> 1100 0100 0101 -> samen: 110001000101 -> linkse nullen weglaten -> 110001000101(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-16 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): FC (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>11111100</text>
+    <feedback format="html"><text><![CDATA[FC(16): elk cijfer apart naar 4 bits -> 1111 1100 -> samen: 11111100 -> linkse nullen weglaten -> 11111100(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-17 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): DE3 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>110111100011</text>
+    <feedback format="html"><text><![CDATA[DE3(16): elk cijfer apart naar 4 bits -> 1101 1110 0011 -> samen: 110111100011 -> linkse nullen weglaten -> 110111100011(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-18 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 72 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>1110010</text>
+    <feedback format="html"><text><![CDATA[72(16): elk cijfer apart naar 4 bits -> 0111 0010 -> samen: 01110010 -> linkse nullen weglaten -> 1110010(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-19 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 37 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>110111</text>
+    <feedback format="html"><text><![CDATA[37(16): elk cijfer apart naar 4 bits -> 0011 0111 -> samen: 00110111 -> linkse nullen weglaten -> 110111(2)]]></text></feedback>
+  </answer>
+</question>
+<question type="shortanswer">
+  <name><text>TB10-20 Hex naar Binair</text></name>
+  <questiontext format="html"><text><![CDATA[Zet om naar binair (zonder voorloopnullen): 717 (16) =]]></text></questiontext>
+  <defaultgrade>1</defaultgrade>
+  <penalty>0.3333333</penalty>
+  <hidden>0</hidden>
+  <usecase>0</usecase>
+  <answer fraction="100" format="plain_text">
+    <text>11100010111</text>
+    <feedback format="html"><text><![CDATA[717(16): elk cijfer apart naar 4 bits -> 0111 0001 0111 -> samen: 011100010111 -> linkse nullen weglaten -> 11100010111(2)]]></text></feedback>
+  </answer>
+</question>
+</quiz>

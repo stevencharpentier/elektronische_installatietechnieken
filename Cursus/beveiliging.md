@@ -279,6 +279,8 @@ In een verdeelkast worden deze beveiligingen na elkaar geplaatst, van grof naar 
 
 Dit is exact wat we in het labo gaan herkennen en aansluiten: eerst de hoofdschakelaar en de algemene 300 mA-differentieel, dan de automaten per kring, en waar nodig een bijkomende 30 mA-differentieel.
 
+**Moeten stap 1 en 2 twee aparte toestellen zijn?** Niet per se. De hoofdschakelaar-functie mag ingevuld worden door een gewone schakelaar, maar ook door een differentieel of een automaat: elk toestel dat de installatie in één beweging kan scheiden, voldoet. In de praktijk bestaat er zelfs een apart productcategorie voor, de **hoofddifferentieelschakelaar**: één toestel dat tegelijk als hoofdschakelaar én als algemene differentieel dient. Dat bespaart plaats in de kast. Een aparte hoofdschakelaar vóór de algemene differentieel plaatsen mag natuurlijk ook, dat is een even geldige, gangbare keuze.
+
 Zo ziet dat er schematisch uit in een modulair verdeelbord (elk blokje een automaat of differentieel, met zijn aansluitpunten boven en onder):
 
 ![Automaten in een verdeelbord](.gitbook/assets/verdeelbord_automaten_icoon.png)
